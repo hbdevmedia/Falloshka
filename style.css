@@ -367,11 +367,6 @@ footer {
    CARD INFO (Kart Altı İsim Butonu)
 ========================================= */
 
-.tarot-card {
-  position: relative;
-  margin-bottom: 48px; /* kart ile buton arası */
-}
-
 .card-info {
   position: absolute;
   bottom: -36px;   /* kartın ALTINA iter */
