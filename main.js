@@ -365,13 +365,12 @@ function drawCards(count = 3) {
 
 function renderCards() {
   const cardElements = document.querySelectorAll(".tarot-card");
+  const nameButtons = document.querySelectorAll(".card-name-btn");
   const lang = localStorage.getItem("lang") || "en";
 
   cardElements.forEach((cardEl, index) => {
     const card = selectedCards[index];
     if (!card) return;
-
-    const nameBtn = cardEl.querySelector(".card-name-btn");
 
     cardEl.addEventListener("click", () => {
       if (cardEl.classList.contains("open")) return;
@@ -383,14 +382,14 @@ function renderCards() {
         cardEl.classList.add("open");
         cardEl.querySelector("img")?.remove();
 
-        // ✅ İşte kritik kısım
-        nameBtn.textContent = card.name[lang] || card.name.en;
-        nameBtn.classList.remove("hidden");
-        nameBtn.onclick = () => {
-          openModal(card);
-        };
+        // ✅ ALT BÖLÜMDEKİ DOĞRU BUTONU YAZ
+        const btn = nameButtons[index];
+        btn.textContent = card.name[lang] || card.name.en;
+        btn.classList.remove("hidden");
 
-        updateResult(card);
+        // popup
+        btn.onclick = () => openModal(card);
+
       }, 600);
     });
   });
@@ -398,13 +397,13 @@ function renderCards() {
 
 function updateOpenedCardNames() {
   const lang = localStorage.getItem("lang") || "en";
+  const buttons = document.querySelectorAll(".card-name-btn");
 
-  document.querySelectorAll(".tarot-card.open").forEach((cardEl, index) => {
+  buttons.forEach((btn, index) => {
+    if (btn.classList.contains("hidden")) return;
+
     const card = selectedCards[index];
     if (!card) return;
-
-    const btn = cardEl.querySelector(".card-name-btn");
-    if (!btn) return;
 
     btn.textContent = card.name[lang] || card.name.en;
   });

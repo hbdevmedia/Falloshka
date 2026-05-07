@@ -465,3 +465,43 @@ footer {
   font-size: 26px;
   cursor: pointer;
 }
+
+/* =========================================
+   CARD NAME BUTTONS (Alt Bölüm)
+========================================= */
+
+.card-names {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.card-name-btn {
+  min-width: 160px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: rgba(40, 15, 80, 0.75);
+  border: 1.5px solid #d4af37;
+  color: #ffd700;
+  font-family: "Georgia", serif;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+
+  box-shadow:
+    0 0 10px rgba(212, 175, 55, 0.35),
+    inset 0 0 6px rgba(255, 215, 0, 0.15);
+
+  transition: all 0.25s ease;
+}
+
+.card-name-btn:hover {
+  background: rgba(80, 30, 140, 0.85);
+  box-shadow: 0 0 16px rgba(255, 215, 0, 0.75);
+  transform: translateY(-1px);
+}
+
+.card-name-btn.hidden {
+  visibility: hidden; /* yerini korur ama görünmez */
+}
