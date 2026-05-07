@@ -95,17 +95,31 @@
 
 <!-- TAROT CARDS -->
 <section class="cards tarot-spread">
+
   <div class="tarot-card" data-index="0">
     <img src="images/back-cart.png" alt="Tarot card back" class="card-fallback">
+
+    <div class="card-info">
+      <button class="card-name-btn hidden"></button>
+    </div>
   </div>
 
   <div class="tarot-card" data-index="1">
     <img src="images/back-cart.png" alt="Tarot card back" class="card-fallback">
+
+    <div class="card-info">
+      <button class="card-name-btn hidden"></button>
+    </div>
   </div>
 
   <div class="tarot-card" data-index="2">
     <img src="images/back-cart.png" alt="Tarot card back" class="card-fallback">
+
+    <div class="card-info">
+      <button class="card-name-btn hidden"></button>
+    </div>
   </div>
+
 </section>
 
 <!-- RESULT -->
@@ -129,6 +143,13 @@
 
 <!-- ✅ TEK JS DOSYASI -->
 <script src="main.js"></script>
-
+<!-- CARD INFO MODAL -->
+<div id="cardModal" class="modal hidden">
+  <div class="modal-content">
+    <button id="closeModal" class="modal-close">×</button>
+    <h3 id="modalTitle"></h3>
+    <p id="modalText"></p>
+  </div>
+</div>
 </body>
 </html>

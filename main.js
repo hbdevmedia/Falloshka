@@ -360,29 +360,39 @@ function drawCards(count = 3) {
   selectedCards = shuffled.slice(0, count);
 }
 
-// Kartları ekrana bas
 function renderCards() {
   const cardElements = document.querySelectorAll(".tarot-card");
+  const lang = localStorage.getItem("lang") || "en";
 
   cardElements.forEach((cardEl, index) => {
     const card = selectedCards[index];
     if (!card) return;
 
+    const nameBtn = cardEl.querySelector(".card-name-btn");
+
     cardEl.addEventListener("click", () => {
       if (cardEl.classList.contains("open")) return;
 
-      // Animasyon
       cardEl.classList.add("revealing");
 
       setTimeout(() => {
         cardEl.style.backgroundImage = `url(${card.image})`;
         cardEl.classList.add("open");
+        cardEl.querySelector("img")?.remove();
+
+        // ✅ İşte kritik kısım
+        nameBtn.textContent = card.name[lang] || card.name.en;
+        nameBtn.classList.remove("hidden");
+        nameBtn.onclick = () => {
+          openModal(card);
+        };
 
         updateResult(card);
       }, 600);
     });
   });
 }
+
 
 // Sonuç üret
 function updateResult(card) {
@@ -398,16 +408,54 @@ function updateResult(card) {
      Bu kart acele değil, dikkat ister. Önünde şekillenen durum netleşmeye başlıyor.`;
 }
 
+
+
+let tarotMeanings = [];
+
+// Meaning JSON yükle
+async function loadTarotMeanings() {
+  const res = await fetch("./tarot-meanings.json");
+  tarotMeanings = await res.json();
+}
+
+// İlgili kartın anlamını bul
+function getCardMeaning(cardId, lang) {
+  const item = tarotMeanings.find(m => m.id === cardId);
+  return item?.meaning[lang] || item?.meaning.en || "";
+}
+
+function openModal(card) {
+  const lang = localStorage.getItem("lang") || "en";
+
+  document.getElementById("modalTitle").textContent =
+    card.name[lang] || card.name.en;
+
+  document.getElementById("modalText").textContent =
+    getCardMeaning(card.id, lang);
+
+  document.getElementById("cardModal").classList.remove("hidden");
+}
+
+document.getElementById("closeModal")?.addEventListener("click", () => {
+  document.getElementById("cardModal").classList.add("hidden");
+});
+
+document.getElementById("cardModal")?.addEventListener("click", e => {
+  if (e.target.id === "cardModal") {
+    e.currentTarget.classList.add("hidden");
+  }
+});
+
 /* ==================================================
    INIT
 ================================================== */
 
 document.addEventListener("DOMContentLoaded", async () => {
   initLanguage();
-
-  // Sadece reading.html'de çalışsın
+    // Sadece reading.html'de çalışsın
   if (document.querySelector(".tarot-spread")) {
     await loadTarotCards();
+    await loadTarotMeanings();
     drawCards(3);
     renderCards();
   }

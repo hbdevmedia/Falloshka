@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "meaning": {
+      "de": "Der Magier steht für bewusstes Handeln und das Nutzen eigener Fähigkeiten. Er erinnert daran, dass Ideen durch Fokus Realität werden können.",
+      "tr": "Büyücü, potansiyelini bilinçli şekilde kullanmayı temsil eder. Doğru niyetle atılan adımların güçlü sonuçlar doğurabileceğini gösterir.",
+      "en": "The Magician represents focused intention and personal power. It shows that ideas can be transformed into action through confidence.",
+      "sr": "Mađioničar simbolizuje svesno korišćenje ličnih sposobnosti. Ukazuje na sposobnost da se ideje pretvore u stvarnost.",
+      "sk": "Kúzelník predstavuje vedomé konanie a vnútornú silu. Naznačuje schopnosť pretaviť nápady do reality."
+    }
+  },
+  {
+    "id": 2,
+    "meaning": {
+      "de": "Die Hohepriesterin symbolisiert innere Weisheit und Intuition. Sie ermutigt dazu, auf das eigene Bauchgefühl zu hören.",
+      "tr": "Başrahibe sezgiyi ve içsel bilgeliği temsil eder. Sessizlikte gelen mesajlara dikkat etmeyi önerir.",
+      "en": "The High Priestess represents intuition and inner knowledge. She encourages trusting subtle inner guidance.",
+      "sr": "Visoka sveštenica označava intuiciju i unutrašnje razumevanje. Podstiče slušanje unutrašnjeg glasa.",
+      "sk": "Veľkňažka symbolizuje intuíciu a vnútornú múdrosť. Vyzýva k dôvere v tiché vnútorné poznanie."
+    }
+  },
+  {
+    "id": 3,
+    "meaning": {
+      "de": "Die Herrscherin steht für Wachstum, Fürsorge und Kreativität. Sie bringt nährende und unterstützende Energie.",
+      "tr": "İmparatoriçe bolluğu ve yaratıcı enerjiyi simgeler. Şefkat ve üretkenlik ile gelişimi anlatır.",
+      "en": "The Empress represents abundance and creative flow. She reflects support, care, and natural growth.",
+      "sr": "Carica simbolizuje obilje i kreativnost. Donosi energiju brige i razvoja.",
+      "sk": "Cisárovná predstavuje hojnosť a tvorivosť. Vyžaruje starostlivosť a prirodzený rast."
+    }
+  },
+  {
+    "id": 4,
+    "meaning": {
+      "de": "Der Herrscher steht für Struktur und Stabilität. Er zeigt verantwortungsbewusste Führung.",
+      "tr": "İmparator düzen ve güveni temsil eder. Sağlam temeller kurmayı anlatır.",
+      "en": "The Emperor represents structure and authority. He encourages building stability through discipline.",
+      "sr": "Car označava stabilnost i odgovorno vođstvo. Donosi osećaj sigurnosti.",
+      "sk": "Cisár symbolizuje poriadok a pevnosť. Podporuje budovanie stabilných základov."
+    }
+  },
+  {
+    "id": 5,
+    "meaning": {
+      "de": "Der Hierophant steht für Tradition und gemeinsames Lernen. Er unterstützt Orientierung durch Werte.",
+      "tr": "Aziz, bilgeliği ve öğretmeyi temsil eder. Rehberlik ve manevi düzeni anlatır.",
+      "en": "The Hierophant represents shared wisdom and guidance. He highlights learning through tradition.",
+      "sr": "Sveštenik simbolizuje učenje i duhovno vođstvo. Podstiče zajedničke vrednosti.",
+      "sk": "Hierofant predstavuje učenie a duchovné vedenie. Zdôrazňuje silu tradície."
+    }
+  },
+  {
+    "id": 6,
+    "meaning": {
+      "de": "Die Liebenden stehen für Harmonie und bewusste Entscheidungen. Sie betonen Verbindung und Werte.",
+      "tr": "Aşıklar uyum ve bilinçli seçimleri simgeler. Kalpten gelen bağları anlatır.",
+      "en": "The Lovers represent harmony and meaningful choices. They highlight connection and alignment.",
+      "sr": "Ljubavnici označavaju sklad i povezivanje. Govore o izborima iz srca.",
+      "sk": "Milenci symbolizujú harmóniu a súlad. Poukazujú na dôležité vzťahy."
+    }
+  },
+  {
+    "id": 7,
+    "meaning": {
+      "de": "Der Wagen steht für Zielstrebigkeit und Bewegung. Er zeigt Fortschritt durch Entschlossenheit.",
+      "tr": "Araba kararlılığı ve ilerlemeyi temsil eder. Kontrolle gelen başarıyı anlatır.",
+      "en": "The Chariot represents determination and forward motion. It signals progress through focus.",
+      "sr": "Kočija simbolizuje napredak i istrajnost. Ukazuje na uspeh kroz disciplinu.",
+      "sk": "Voz predstavuje smer a odhodlanie. Naznačuje víťazstvo cez sústredenie."
+    }
+  },
+  {
+    "id": 8,
+    "meaning": {
+      "de": "Kraft steht für innere Ruhe und Mut. Sie zeigt sanfte Stärke.",
+      "tr": "Güç, içsel denge ve sabrı temsil eder. Sevgiyle gelen cesareti anlatır.",
+      "en": "Strength represents inner calm and courage. It reflects compassion-based resilience.",
+      "sr": "Snaga označava strpljenje i unutrašnju moć. Govori o blagoj snazi.",
+      "sk": "Sila symbolizuje vnútornú odvahu a trpezlivosť. Predstavuje pokojnú silu."
+    }
+  },
+  {
+    "id": 9,
+    "meaning": {
+      "de": "Der Eremit steht für innere Suche und Klarheit. Er lädt zur Selbstreflexion ein.",
+      "tr": "Ermiş içsel rehberliği temsil eder. Sessizlikte gelen bilgeliği anlatır.",
+      "en": "The Hermit represents reflection and inner guidance. He values wisdom through solitude.",
+      "sr": "Pustinjak simbolizuje unutrašnje razumevanje. Podstiče lični uvid.",
+      "sk": "Pustovník označuje hľadanie múdrosti. Podporuje vnútornú jasnoť."
+    }
+  },
+  {
+    "id": 10,
+    "meaning": {
+      "de": "Das Rad des Schicksals steht für Veränderung und neue Chancen. Es bringt natürliche Entwicklung.",
+      "tr": "Kader Çarkı değişim ve akışı temsil eder. Hayatın döngüsünü anlatır.",
+      "en": "The Wheel of Fortune represents cycles and opportunity. It reflects life’s dynamic movement.",
+      "sr": "Točak sudbine označava promene i prilike. Donosi tok života.",
+      "sk": "Koleso šťastia symbolizuje pohyb a vývoj. Poukazuje na nové možnosti."
+    }
+  },
+  {
+    "id": 11,
+    "meaning": {
+      "de": "Gerechtigkeit steht für Ausgleich und Klarheit. Sie fördert faire Entscheidungen.",
+      "tr": "Adalet denge ve doğruluğu temsil eder. Objektif bakışı anlatır.",
+      "en": "Justice represents balance and truth. It encourages fairness and clarity.",
+      "sr": "Pravda simbolizuje ravnotežu i iskrenost. Podstiče pravedan pristup.",
+      "sk": "Spravodlivosť označuje rovnováhu a čestnosť. Vedie k jasným rozhodnutiam."
+    }
+  },
+  {
+    "id": 12,
+    "meaning": {
+      "de": "Der Gehängte steht für neue Perspektiven. Er lädt zum Innehalten ein.",
+      "tr": "Asılan Adam bakış açısı değişimini temsil eder. Sabırla gelen anlayışı anlatır.",
+      "en": "The Hanged Man represents a fresh viewpoint. It suggests insight through pause.",
+      "sr": "Obešeni označava drugačiji ugao gledanja. Donosi razumevanje kroz čekanje.",
+      "sk": "Obesenec symbolizuje nový pohľad. Podporuje vnímavosť cez pokoj."
+    }
+  },
+  {
+    "id": 13,
+    "meaning": {
+      "de": "Der Tod symbolisiert Transformation und Erneuerung. Er bringt einen natürlichen Übergang.",
+      "tr": "Ölüm dönüşüm ve yenilenmeyi temsil eder. Yeni başlangıçların kapısını açar.",
+      "en": "Death represents transformation and renewal. It signals meaningful change.",
+      "sr": "Smrt simbolizuje promenu i preporod. Najavljuje novi početak.",
+      "sk": "Smrť označuje premenu a obnovu. Prináša nový cyklus."
+    }
+  },
+  {
+    "id": 14,
+    "meaning": {
+      "de": "Mäßigkeit steht für Harmonie und Ausgleich. Sie fördert innere Balance.",
+      "tr": "Denge uyum ve ölçülülüğü temsil eder. Orta yolu anlatır.",
+      "en": "Temperance represents harmony and balance. It promotes calm integration.",
+      "sr": "Umerenost označava sklad i ravnotežu. Donosi mir.",
+      "sk": "Miernosť symbolizuje vyváženosť. Podporuje vnútorný pokoj."
+    }
+  },
+  {
+    "id": 15,
+    "meaning": {
+      "de": "Der Teufel steht für Bewusstwerdung eigener Bedürfnisse. Er bietet Erkenntnis durch Selbstbeobachtung.",
+      "tr": "Şeytan farkındalık ve içgörü temsil eder. Kişinin kendini tanımasını sağlar.",
+      "en": "The Devil represents awareness and self-knowledge. It highlights conscious choices.",
+      "sr": "Đavo simbolizuje svesnost i samospoznaju. Podstiče razumevanje sebe.",
+      "sk": "Diabol označuje uvedomenie. Poukazuje na osobnú silu voľby."
+    }
+  },
+  {
+    "id": 16,
+    "meaning": {
+      "de": "Der Turm bringt plötzliche Erkenntnis. Er öffnet Raum für Neubeginn.",
+      "tr": "Yıkılan Kule ani farkındalığı temsil eder. Değişimle gelen açıklığı anlatır.",
+      "en": "The Tower represents breakthrough awareness. It clears space for renewal.",
+      "sr": "Kula simbolizuje iznenadnu jasnoću. Donosi oslobađanje.",
+      "sk": "Veža označuje prebudenie. Vytvára priestor pre nové usporiadanie."
+    }
+  },
+  {
+    "id": 17,
+    "meaning": {
+      "de": "Der Stern steht für Hoffnung und Inspiration. Er bringt sanfte Heilung.",
+      "tr": "Yıldız umut ve ilhamı temsil eder. Geleceğe güven verir.",
+      "en": "The Star represents hope and serenity. It inspires faith in the future.",
+      "sr": "Zvezda simbolizuje nadu i spokoj. Donosi veru.",
+      "sk": "Hviezda označuje nádej. Prináša tichú inšpiráciu."
+    }
+  },
+  {
+    "id": 18,
+    "meaning": {
+      "de": "Der Mond steht für Sensibilität und innere Wahrnehmung. Er lädt zu Achtsamkeit ein.",
+      "tr": "Ay bilinçaltı ve sezgiyi temsil eder. Duygusal farkındalığı anlatır.",
+      "en": "The Moon represents intuition and sensitivity. It encourages emotional awareness.",
+      "sr": "Mesec označava intuiciju i osećajnost. Podstiče pažnju prema osećanjima.",
+      "sk": "Mesiac symbolizuje vnímanie a intuíciu. Podporuje jemnú pozornosť."
+    }
+  },
+  {
+    "id": 19,
+    "meaning": {
+      "de": "Die Sonne steht für Freude und Klarheit. Sie bringt positive Energie.",
+      "tr": "Güneş mutluluk ve canlılığı temsil eder. Başarıyı ve açıklığı anlatır.",
+      "en": "The Sun represents joy and vitality. It reflects confidence and warmth.",
+      "sr": "Sunce simbolizuje sreću i jasnoću. Donosi optimizam.",
+      "sk": "Slnko označuje radosť a energiu. Vyžaruje pozitívnu silu."
+    }
+  },
+  {
+    "id": 20,
+    "meaning": {
+      "de": "Das Gericht steht für Erwachen und Erkenntnis. Es bringt innere Klarheit.",
+      "tr": "Yargı farkındalık ve yenilenmeyi temsil eder. Kendini değerlendirmeyi anlatır.",
+      "en": "Judgement represents awakening and realization. It signals inner clarity.",
+      "sr": "Sud označava buđenje i razumevanje. Donosi novi pogled.",
+      "sk": "Súd symbolizuje precitnutie. Podporuje vnútorné uvedomenie."
+    }
+  },
+  {
+    "id": 21,
+    "meaning": {
+      "de": "Die Welt steht für Vollendung und Ganzheit. Sie zeigt Harmonie.",
+      "tr": "Dünya tamamlanma ve uyumu temsil eder. Döngünün başarısını anlatır.",
+      "en": "The World represents completion and unity. It reflects fulfillment.",
+      "sr": "Svet simbolizuje celovitost i uspeh. Donosi osećaj zaokruženja.",
+      "sk": "Svet označuje dokončenie. Predstavuje celistvosť."
+    }
+  },
+  {
+    "id": 22,
+    "meaning": {
+      "de": "Der Narr steht für Neuanfang und Freiheit. Er lädt zum Vertrauen ein.",
+      "tr": "Deli yeni başlangıçları temsil eder. Cesaretle atılan adımları anlatır.",
+      "en": "The Fool represents new beginnings and openness. It encourages curiosity.",
+      "sr": "Luda simbolizuje nove početke. Donosi osećaj slobode.",
+      "sk": "Blázon označuje spontánnosť. Podporuje dôveru v cestu."
+    }
+  }
+]
