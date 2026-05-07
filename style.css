@@ -1,0 +1,364 @@
+* {
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #1b1033, #0c0816);
+  color: #f1f1f3;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 32px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.brand {
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+
+nav a {
+  margin: 0 12px;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+select {
+  background: #201234;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+/* HERO */
+.hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 10%;
+  background: url("hero-space.png") no-repeat center/cover;
+}
+
+.hero-content {
+  max-width: 520px;
+  background: rgba(40,20,70,0.6);
+  padding: 40px;
+  border-radius: 18px;
+}
+
+.hero h1 {
+  font-size: 46px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  opacity: 0.9;
+  margin-bottom: 28px;
+}
+
+/* BUTTON BASE – button + a SAME LOOK */
+.primary-btn {
+  display: inline-flex;              /* 🔴 EN ÖNEMLİ SATIR */
+  align-items: center;
+  justify-content: center;
+
+  background: #ffd700;
+  color: #0f0f17;
+
+  padding: 14px 28px;
+  border-radius: 999px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1;                     /* 🔴 text dikey ortalama */
+
+  text-decoration: none;              /* <a> underline temizlenir */
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+/* SMALL VARIANT */
+.primary-btn.small {
+  padding: 12px 26px;
+  font-size: 14px;
+}
+
+/* HOVER */
+.primary-btn:hover {
+  background: #ffea61;
+  transform: translateY(-1px);
+}
+
+/* EXPERIENCE */
+.experience {
+  padding: 100px 10%;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.card-image {
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 0 40px rgba(150, 90, 255, 0.4);
+}
+
+.experience-text h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.note {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 60px 10%;
+}
+
+.cards img {
+  width: 180px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(150, 90, 255, 0.45);
+}
+
+/* TAROT CARD (ANIMATED + FALLBACK) */
+.tarot-card {
+  width: 180px;
+  height: 300px;
+  border-radius: 16px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 40px rgba(150, 90, 255, 0.6);
+  overflow: hidden;
+  transition: transform 1.2s ease, box-shadow 1.2s ease;
+}
+
+/* Fallback IMG */
+.tarot-card img.card-fallback {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Kart açıldığında img'i gizle */
+.tarot-card.open img.card-fallback {
+  opacity: 0;
+}
+
+/* Açılma animasyonu */
+.tarot-card.revealing {
+  transform: rotateY(180deg) scale(1.05);
+}
+
+/* Açılmış kart */
+.tarot-card.open {
+  box-shadow: 0 0 60px rgba(255, 215, 0, 0.8);
+  background-size: cover;
+}
+
+
+/* RESULT */
+.result {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.result h2 {
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.result-box {
+  max-width: 700px;
+  margin: auto;
+  padding: 36px;
+  border-radius: 18px;
+  border: 2px solid #7b3fe4;
+  background: rgba(40,15,80,0.5);
+}
+
+/* FOOTER */
+footer {
+  padding: 32px;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.7;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+/* READING HERO */
+.reading-hero {
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.reading-hero h1 {
+  font-size: 42px;
+}
+
+.reading-hero p {
+  max-width: 520px;
+  margin: auto;
+  opacity: 0.85;
+}
+
+/* FORM */
+.reading-form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.form-box {
+  background: rgba(40,15,80,0.6);
+  padding: 32px;
+  width: 420px;
+  border-radius: 18px;
+}
+
+.form-box h3 {
+  margin-bottom: 20px;
+}
+
+.form-box label {
+  display: block;
+  margin-top: 14px;
+  font-size: 13px;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  padding: 10px;
+  background: #1c0f30;
+  border: 1px solid #ffd700;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.dob {
+  display: flex;
+  gap: 10px;
+}
+
+/* RADIO GROUP – genel blok */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;                 /* 🔽 Daha yakın: 14px → 8px */
+  margin-top: 8px;
+}
+
+/* SATIR */
+.custom-radio {
+  display: flex;
+  align-items: center;      /* ✅ Yazıyla tam hizalama */
+  gap: 8px;                /* 🔽 Daha yakın: 10px → 8px */
+  cursor: pointer;
+}
+
+/* GERÇEK RADIO'YU GİZLE */
+.custom-radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ÇİZİLEN DAİRE (ANA KISIM) */
+.radio-circle {
+  width: 16px;                         /* 🔽 Bir tık daha zarif */
+  height: 16px;
+  border: 2px solid #d4af37;
+  border-radius: 50%;                  /* ✅ TAM DAİRE */
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0;                      /* 🔴 ÇIZGI SORUNUNU KÖKTEN ÇÖZER */
+}
+
+/* SEÇİLİNCE İÇ NOKTA */
+.custom-radio input[type="radio"]:checked + .radio-circle::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #d4af37;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* YAZI */
+.radio-text {
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+/* HOVER */
+.custom-radio:hover .radio-circle {
+  box-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
+}
+
+/* 🔥 FORM LABEL KURALINI RADIO İÇİN EZ */
+.form-box .custom-radio {
+  display: flex !important;        /* ✅ block'u ezer */
+  align-items: center;
+  gap: 10px;                        /* ✅ radio – yazı arası TEMİZ */
+  margin-top: 0 !important;         /* ✅ yukarıdan itilmeyi kaldır */
+}
+
+.radio-text {
+  margin-left: 2px;
+}
+/* ----------------------------------- */
+.primary-btn.full {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* CARDS */
+.cards img {
+  width: 160px;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(150,90,255,0.5);
+}
+
+/* RESULT */
+.result-box {
+  border: 2px solid #7b3fe4;
+  background: rgba(40,15,80,0.5);
+}

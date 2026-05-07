@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fallosh – Tarot Reading</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="brand">Fallosh</div>
+
+  <nav>
+    <a href="index.html" data-i18n="navHome">Home</a>
+    <a href="reading.html" class="active" data-i18n="navReading">Your Reading</a>
+    <a href="#about" data-i18n="navAbout">About</a>
+  </nav>
+
+  <select id="languageSelector">
+    <option value="en">EN</option>
+    <option value="tr">TR</option>
+    <option value="de">DE</option>
+    <option value="sr">SR</option>
+    <option value="sk">SK</option>
+  </select>
+</header>
+
+<!-- HERO -->
+<section class="reading-hero">
+  <h1 data-i18n="readingHeroTitle">Reveal Your Path</h1>
+  <p data-i18n="readingHeroText">
+    Begin your mystical journey by sharing your details.
+    The cards will guide you toward your next revelation.
+  </p>
+</section>
+
+<!-- FORM -->
+<section class="reading-form">
+  <div class="form-box">
+    <h3 data-i18n="readingFormTitle">Mystical Tarot Reading</h3>
+    <p data-i18n="readingFormSubtitle">
+      Connect with the universe and seek guidance through the cards.
+    </p>
+
+    <label data-i18n="readingLabelName">Name</label>
+    <input type="text" data-i18n-placeholder="readingPhName" placeholder="">
+
+    <label data-i18n="readingLabelDob">Date of Birth</label>
+    <div class="dob">
+      <input type="text" data-i18n-placeholder="readingPhDay" placeholder="">
+      <input type="text" data-i18n-placeholder="readingPhMonth" placeholder="">
+      <input type="text" data-i18n-placeholder="readingPhYear" placeholder="">
+    </div>
+
+   <label data-i18n="readingLabelTopic">Selected Life Topic *</label>
+
+        <div class="radio-group">
+        <label class="custom-radio">
+            <input type="radio" name="topic" value="love">
+            <span class="radio-circle"></span>
+            <span class="radio-text" data-i18n="readingTopicLove">Love</span>
+        </label>
+
+        <label class="custom-radio">
+            <input type="radio" name="topic" value="career">
+            <span class="radio-circle"></span>
+            <span class="radio-text" data-i18n="readingTopicCareer">Career</span>
+        </label>
+
+        <label class="custom-radio">
+            <input type="radio" name="topic" value="money">
+            <span class="radio-circle"></span>
+            <span class="radio-text" data-i18n="readingTopicMoney">Money</span>
+        </label>
+
+        <label class="custom-radio">
+            <input type="radio" name="topic" value="spiritual">
+            <span class="radio-circle"></span>
+            <span class="radio-text" data-i18n="readingTopicSpiritual">Spirituality</span>
+        </label>
+        </div>
+
+
+
+    <label data-i18n="readingLabelMessage">Message for the Reader</label>
+    <textarea data-i18n-placeholder="readingPhMessage" placeholder=""></textarea>
+
+    <button class="primary-btn full" data-i18n="readingBtnDraw">
+      Draw Your Cards
+    </button>
+  </div>
+</section>
+
+<!-- TAROT CARDS -->
+<section class="cards tarot-spread">
+  <div class="tarot-card" data-index="0">
+    <img src="images/back-cart.png" alt="Tarot card back" class="card-fallback">
+  </div>
+
+  <div class="tarot-card" data-index="1">
+    <img src="images/back-cart.png" alt="Tarot card back" class="card-fallback">
+  </div>
+
+  <div class="tarot-card" data-index="2">
+    <img src="images/back-cart.png" alt="Tarot card back" class="card-fallback">
+  </div>
+</section>
+
+<!-- RESULT -->
+<section class="result">
+  <h2 data-i18n="readingResultTitle">Your Celestial Narrative</h2>
+  <div class="result-box">
+    <p data-i18n="readingResultText">
+      The energy of the drawn card suggests a time of inner transformation and gentle clarity.
+    </p>
+    <p data-i18n="readingResultNote">
+      Remember, this reading reflects possibilities, not certainties.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p data-i18n="footerText">
+    This content is for entertainment purposes only.
+  </p>
+</footer>
+
+<!-- ✅ TEK JS DOSYASI -->
+<script src="main.js"></script>
+
+</body>
+</html>

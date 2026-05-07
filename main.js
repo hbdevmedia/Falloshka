@@ -1,0 +1,414 @@
+/* ==================================================
+   GLOBAL TRANSLATIONS – NO COLLISIONS
+   ================================================== */
+console.log("MAIN.JS YÜKLENDİ");
+const translations = {
+  en: {
+    /* NAV */
+    navHome: "Home",
+    navReading: "Your Reading",
+    navAbout: "About",
+
+    /* HOME (index.html) */
+    homeHeroTitle: "Unveil Your Inner Mysteries",
+    homeHeroText:
+      "Step into a sanctuary of intuitive reflection designed for curiosity and inspiration.",
+    homeHeroButton: "Draw Your Cards",
+
+    homeExpTitle: "The Experience",
+    homeExpText:
+      "This journey is created for reflection, not prediction.",
+    homeExpNote: "Entertainment purposes only.",
+    homeExpButton: "Begin Reading",
+
+    homeResultTitle: "Your Celestial Narrative",
+    homeResultText:
+      "Your reading will appear here once the cards are drawn.",
+
+    /* READING (reading.html) */
+    readingHeroTitle: "Reveal Your Path",
+    readingHeroText:
+      "Begin your mystical journey by sharing your details. The cards will guide you toward your next revelation.",
+
+    readingFormTitle: "Mystical Tarot Reading",
+    readingFormSubtitle:
+      "Connect with the universe and seek guidance through the cards.",
+
+    readingLabelName: "Name",
+    readingPhName: "Enter your name (optional)",
+
+    readingLabelDob: "Date of Birth",
+    readingPhDay: "Day",
+    readingPhMonth: "Month",
+    readingPhYear: "Year",
+
+    readingLabelTopic: "Selected Life Topic",
+    readingTopicLove: "Love",
+    readingTopicCareer: "Career",
+    readingTopicMoney: "Money",
+    readingTopicSpiritual: "Spirituality",
+
+    readingLabelMessage: "Message for the Reader",
+    readingPhMessage: "What would you like to ask the cards?",
+
+    readingBtnDraw: "Draw Your Cards",
+
+    readingResultTitle: "Your Celestial Narrative",
+    readingResultText:
+      "The energy of the drawn card suggests a time of inner transformation and gentle clarity.",
+    readingResultNote:
+      "Remember, this reading reflects possibilities, not certainties.",
+
+    /* FOOTER */
+    footerText:
+      "This content is for entertainment purposes only."
+  },
+
+  de: {
+  /* NAV */
+  navHome: "Start",
+  navReading: "Deine Legung",
+  navAbout: "Über",
+
+  /* HOME (index.html) */
+  homeHeroTitle: "Enthülle Deine Inneren Geheimnisse",
+  homeHeroText:
+    "Betritt einen Raum intuitiver Reflexion, geschaffen für Neugier und Inspiration.",
+  homeHeroButton: "Karten Ziehen",
+
+  homeExpTitle: "Das Erlebnis",
+  homeExpText:
+    "Diese Reise dient der Reflexion, nicht der Vorhersage.",
+  homeExpNote: "Nur zu Unterhaltungszwecken.",
+  homeExpButton: "Lesung Starten",
+
+  homeResultTitle: "Deine Himmlische Geschichte",
+  homeResultText:
+    "Deine Legung erscheint hier, sobald die Karten gezogen wurden.",
+
+  /* READING (reading.html) */
+  readingHeroTitle: "Enthülle Deinen Weg",
+  readingHeroText:
+    "Beginne deine mystische Reise, indem du deine Informationen teilst. Die Karten zeigen mögliche Wege auf.",
+
+  readingFormTitle: "Mystische Tarot-Lesung",
+  readingFormSubtitle:
+    "Verbinde dich mit dem Universum und suche Führung durch die Karten.",
+
+  readingLabelName: "Name",
+  readingPhName: "Name (optional)",
+
+  readingLabelDob: "Geburtsdatum",
+  readingPhDay: "Tag",
+  readingPhMonth: "Monat",
+  readingPhYear: "Jahr",
+
+  readingLabelTopic: "Lebensbereich",
+  readingTopicLove: "Liebe",
+  readingTopicCareer: "Karriere",
+  readingTopicMoney: "Geld",
+  readingTopicSpiritual: "Spiritualität",
+
+  readingLabelMessage: "Nachricht an die Karten",
+  readingPhMessage: "Was möchtest du die Karten fragen?",
+
+  readingBtnDraw: "Karten Ziehen",
+
+  readingResultTitle: "Deine Himmlische Erzählung",
+  readingResultText:
+    "Die gezogene Karte weist auf eine Phase innerer Wandlung und sanfter Klarheit hin.",
+  readingResultNote:
+    "Diese Lesung zeigt Möglichkeiten, keine Gewissheiten.",
+
+  /* FOOTER */
+  footerText:
+    "Dieser Inhalt dient ausschließlich zu Unterhaltungszwecken."
+},
+sr: {
+  /* NAV */
+  navHome: "Početna",
+  navReading: "Tumačenje",
+  navAbout: "O nama",
+
+  /* HOME (index.html) */
+  homeHeroTitle: "Otkrij Svoje Unutrašnje Misterije",
+  homeHeroText:
+    "Uđi u prostor intuitivne refleksije, stvoren za radoznalost i inspiraciju.",
+  homeHeroButton: "Izvuci Karte",
+
+  homeExpTitle: "Iskustvo",
+  homeExpText:
+    "Ovo putovanje služi razmišljanju, a ne predviđanju.",
+  homeExpNote: "Samo u zabavne svrhe.",
+  homeExpButton: "Započni Tumačenje",
+
+  homeResultTitle: "Tvoja Nebeska Priča",
+  homeResultText:
+    "Tvoje tumačenje će se pojaviti kada karte budu izvučene.",
+
+  /* READING (reading.html) */
+  readingHeroTitle: "Otkrij Svoj Put",
+  readingHeroText:
+    "Započni svoje mistično putovanje deleći svoje informacije. Karte ukazuju na moguće pravce.",
+
+  readingFormTitle: "Mistično Tarot Tumačenje",
+  readingFormSubtitle:
+    "Poveži se sa univerzumom i potraži smernice kroz karte.",
+
+  readingLabelName: "Ime",
+  readingPhName: "Ime (opciono)",
+
+  readingLabelDob: "Datum rođenja",
+  readingPhDay: "Dan",
+  readingPhMonth: "Mesec",
+  readingPhYear: "Godina",
+
+  readingLabelTopic: "Životna oblast",
+  readingTopicLove: "Ljubav",
+  readingTopicCareer: "Karijera",
+  readingTopicMoney: "Novac",
+  readingTopicSpiritual: "Duhovnost",
+
+  readingLabelMessage: "Poruka za karte",
+  readingPhMessage: "Šta želiš da pitaš karte?",
+
+  readingBtnDraw: "Izvuci Karte",
+
+  readingResultTitle: "Tvoja Nebeska Priča",
+  readingResultText:
+    "Izvučena karta ukazuje na period unutrašnje transformacije i blage jasnoće.",
+  readingResultNote:
+    "Ovo tumačenje prikazuje mogućnosti, ne sigurnosti.",
+
+  /* FOOTER */
+  footerText:
+    "Ovaj sadržaj je namenjen isključivo zabavi."
+},
+sk: {
+  /* NAV */
+  navHome: "Domov",
+  navReading: "Výklad",
+  navAbout: "O nás",
+
+  /* HOME (index.html) */
+  homeHeroTitle: "Odhaľ Svoje Vnútorné Tajomstvá",
+  homeHeroText:
+    "Vstúp do priestoru intuitívneho zamyslenia, vytvoreného pre zvedavosť a inšpiráciu.",
+  homeHeroButton: "Vybrať Karty",
+
+  homeExpTitle: "Zážitok",
+  homeExpText:
+    "Táto cesta slúži na reflexiu, nie na predpovedanie.",
+  homeExpNote: "Len na zábavné účely.",
+  homeExpButton: "Začať Výklad",
+
+  homeResultTitle: "Tvoj Nebeský Príbeh",
+  homeResultText:
+    "Tvoj výklad sa zobrazí po výbere kariet.",
+
+  /* READING (reading.html) */
+  readingHeroTitle: "Odhaľ Svoju Cestu",
+  readingHeroText:
+    "Začni svoju mystickú cestu zdieľaním svojich údajov. Karty naznačia možné smery.",
+
+  readingFormTitle: "Mystický Tarotový Výklad",
+  readingFormSubtitle:
+    "Spoj sa s vesmírom a nájdi vedenie prostredníctvom kariet.",
+
+  readingLabelName: "Meno",
+  readingPhName: "Meno (nepovinné)",
+
+  readingLabelDob: "Dátum narodenia",
+  readingPhDay: "Deň",
+  readingPhMonth: "Mesiac",
+  readingPhYear: "Rok",
+
+  readingLabelTopic: "Životná oblasť",
+  readingTopicLove: "Láska",
+  readingTopicCareer: "Kariéra",
+  readingTopicMoney: "Peniaze",
+  readingTopicSpiritual: "Duchovno",
+
+  readingLabelMessage: "Správa pre karty",
+  readingPhMessage: "Čo sa chceš kariet opýtať?",
+
+  readingBtnDraw: "Vybrať Karty",
+
+  readingResultTitle: "Tvoj Nebeský Príbeh",
+  readingResultText:
+    "Vybraná karta naznačuje obdobie vnútornej premeny a jemnej jasnosti.",
+  readingResultNote:
+    "Tento výklad zobrazuje možnosti, nie istoty.",
+
+  /* FOOTER */
+  footerText:
+    "Tento obsah slúži len na zábavné účely."
+},
+
+  tr: {
+    navHome: "Ana Sayfa",
+    navReading: "Falın",
+    navAbout: "Hakkında",
+
+    homeHeroTitle: "İçsel Gizemlerini Keşfet",
+    homeHeroText:
+      "Merak ve ilham için tasarlanmış sezgisel bir alana adım at.",
+    homeHeroButton: "Kartlarını Çek",
+
+    homeExpTitle: "Deneyim",
+    homeExpText:
+      "Bu yolculuk kehanet değil, yansıma içindir.",
+    homeExpNote: "Sadece eğlence amaçlıdır.",
+    homeExpButton: "Fala Başla",
+
+    homeResultTitle: "Göksel Hikayen",
+    homeResultText:
+      "Kartlar çekildiğinde falın burada görünecek.",
+
+    readingHeroTitle: "Yolunu Keşfet",
+    readingHeroText:
+      "Bilgilerini paylaşarak sezgisel yolculuğuna başla.",
+
+    readingFormTitle: "Mistik Tarot Falı",
+    readingFormSubtitle:
+      "Kartlar aracılığıyla evrenle bağlantı kur.",
+
+    readingLabelName: "Ad",
+    readingPhName: "Adın (isteğe bağlı)",
+
+    readingLabelDob: "Doğum Tarihi",
+    readingPhDay: "Gün",
+    readingPhMonth: "Ay",
+    readingPhYear: "Yıl",
+
+    readingLabelTopic: "Hayat Konusu",
+    readingTopicLove: "Aşk",
+    readingTopicCareer: "Kariyer",
+    readingTopicMoney: "Para",
+    readingTopicSpiritual: "Ruhsallık",
+
+    readingLabelMessage: "Sorun",
+    readingPhMessage: "Kartlara ne sormak istersin?",
+
+    readingBtnDraw: "Kartları Çek",
+
+    readingResultTitle: "Göksel Hikayen",
+    readingResultText:
+      "Bu kart içsel dönüşüm ve berraklık dönemini işaret ediyor.",
+    readingResultNote:
+      "Bu fal ihtimalleri yansıtır.",
+
+    footerText: "Bu içerik eğlence amaçlıdır."
+  }
+
+  // de, sr, sk aynı mantıkla devam eder
+};
+
+/* ==================================================
+   LANGUAGE ENGINE
+   ================================================== */
+
+function applyLanguage(lang) {
+  document.documentElement.lang = lang;
+
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.dataset.i18n;
+    if (translations[lang]?.[key]) {
+      el.textContent = translations[lang][key];
+    }
+  });
+
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    const key = el.dataset.i18nPlaceholder;
+    if (translations[lang]?.[key]) {
+      el.placeholder = translations[lang][key];
+    }
+  });
+}
+
+function initLanguage() {
+  const lang = localStorage.getItem("lang") || "en";
+  applyLanguage(lang);
+
+  const selector = document.getElementById("languageSelector");
+  if (selector) {
+    selector.value = lang;
+    selector.addEventListener("change", () => {
+      localStorage.setItem("lang", selector.value);
+      applyLanguage(selector.value);
+    });
+  }
+}
+
+
+/* ==================================================
+   TAROT ENGINE
+================================================== */
+
+let tarotDeck = [];
+let selectedCards = [];
+
+// JSON yükle
+async function loadTarotCards() {
+  const res = await fetch("./tarot-cards.json");
+  tarotDeck = await res.json();
+}
+
+// Rastgele kart seç
+function drawCards(count = 3) {
+  const shuffled = [...tarotDeck].sort(() => 0.5 - Math.random());
+  selectedCards = shuffled.slice(0, count);
+}
+
+// Kartları ekrana bas
+function renderCards() {
+  const cardElements = document.querySelectorAll(".tarot-card");
+
+  cardElements.forEach((cardEl, index) => {
+    const card = selectedCards[index];
+    if (!card) return;
+
+    cardEl.addEventListener("click", () => {
+      if (cardEl.classList.contains("open")) return;
+
+      // Animasyon
+      cardEl.classList.add("revealing");
+
+      setTimeout(() => {
+        cardEl.style.backgroundImage = `url(${card.image})`;
+        cardEl.classList.add("open");
+
+        updateResult(card);
+      }, 600);
+    });
+  });
+}
+
+// Sonuç üret
+function updateResult(card) {
+  const lang = localStorage.getItem("lang") || "en";
+  const resultBox = document.querySelector(".result-box p");
+
+  if (!resultBox) return;
+
+  const cardName = card.name[lang] || card.name.en;
+
+  resultBox.textContent =
+    `${cardName} kartı, şu anda içsel bir farkındalık sürecinde olduğunu fısıldıyor. 
+     Bu kart acele değil, dikkat ister. Önünde şekillenen durum netleşmeye başlıyor.`;
+}
+
+/* ==================================================
+   INIT
+================================================== */
+
+document.addEventListener("DOMContentLoaded", async () => {
+  initLanguage();
+
+  // Sadece reading.html'de çalışsın
+  if (document.querySelector(".tarot-spread")) {
+    await loadTarotCards();
+    drawCards(3);
+    renderCards();
+  }
+});

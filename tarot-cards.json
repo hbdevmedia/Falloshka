@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "image": "images/tarot-01.jpg",
+    "name": {
+      "de": "Der Magier",
+      "tr": "Büyücü",
+      "en": "The Magician",
+      "sr": "Mađioničar",
+      "sk": "Kúzelník"
+    }
+  },
+  {
+    "id": 2,
+    "image": "images/tarot-02.jpg",
+    "name": {
+      "de": "Die Hohepriesterin",
+      "tr": "Başrahibe / Azize",
+      "en": "The High Priestess",
+      "sr": "Visoka sveštenica",
+      "sk": "Veľkňažka"
+    }
+  },
+  {
+    "id": 3,
+    "image": "images/tarot-03.jpg",
+    "name": {
+      "de": "Die Herrscherin",
+      "tr": "İmparatoriçe",
+      "en": "The Empress",
+      "sr": "Carica",
+      "sk": "Cisárovná"
+    }
+  },
+  {
+    "id": 4,
+    "image": "images/tarot-04.jpg",
+    "name": {
+      "de": "Der Herrscher",
+      "tr": "İmparator",
+      "en": "The Emperor",
+      "sr": "Car",
+      "sk": "Cisár"
+    }
+  },
+  {
+    "id": 5,
+    "image": "images/tarot-05.jpg",
+    "name": {
+      "de": "Der Hierophant",
+      "tr": "Aziz / Başrahip",
+      "en": "The Hierophant",
+      "sr": "Sveštenik",
+      "sk": "Hierofant"
+    }
+  },
+  {
+    "id": 6,
+    "image": "images/tarot-06.jpg",
+    "name": {
+      "de": "Die Liebenden",
+      "tr": "Aşıklar",
+      "en": "The Lovers",
+      "sr": "Ljubavnici",
+      "sk": "Milenci"
+    }
+  },
+  {
+    "id": 7,
+    "image": "images/tarot-07.jpg",
+    "name": {
+      "de": "Der Wagen",
+      "tr": "Araba / Savaş Arabası",
+      "en": "The Chariot",
+      "sr": "Kočija",
+      "sk": "Voz"
+    }
+  },
+  {
+    "id": 8,
+    "image": "images/tarot-08.jpg",
+    "name": {
+      "de": "Kraft",
+      "tr": "Güç",
+      "en": "Strength",
+      "sr": "Snaga",
+      "sk": "Sila"
+    }
+  },
+  {
+    "id": 9,
+    "image": "images/tarot-09.jpg",
+    "name": {
+      "de": "Der Eremit",
+      "tr": "Ermiş",
+      "en": "The Hermit",
+      "sr": "Pustinjak",
+      "sk": "Pustovník"
+    }
+  },
+  {
+    "id": 10,
+    "image": "images/tarot-10.jpg",
+    "name": {
+      "de": "Rad des Schicksals",
+      "tr": "Kader Çarkı",
+      "en": "Wheel of Fortune",
+      "sr": "Točak sudbine",
+      "sk": "Koleso šťastia"
+    }
+  },
+  {
+    "id": 11,
+    "image": "images/tarot-11.jpg",
+    "name": {
+      "de": "Gerechtigkeit",
+      "tr": "Adalet",
+      "en": "Justice",
+      "sr": "Pravda",
+      "sk": "Spravodlivosť"
+    }
+  },
+  {
+    "id": 12,
+    "image": "images/tarot-12.jpg",
+    "name": {
+      "de": "Der Gehängte",
+      "tr": "Asılan Adam",
+      "en": "The Hanged Man",
+      "sr": "Obešeni",
+      "sk": "Obesenec"
+    }
+  },
+  {
+    "id": 13,
+    "image": "images/tarot-13.jpg",
+    "name": {
+      "de": "Der Tod",
+      "tr": "Ölüm",
+      "en": "Death",
+      "sr": "Smrt",
+      "sk": "Smrť"
+    }
+  },
+  {
+    "id": 14,
+    "image": "images/tarot-14.jpg",
+    "name": {
+      "de": "Mäßigkeit",
+      "tr": "Denge",
+      "en": "Temperance",
+      "sr": "Umerenost",
+      "sk": "Miernosť"
+    }
+  },
+  {
+    "id": 15,
+    "image": "images/tarot-15.jpg",
+    "name": {
+      "de": "Der Teufel",
+      "tr": "Şeytan",
+      "en": "The Devil",
+      "sr": "Đavo",
+      "sk": "Diabol"
+    }
+  },
+  {
+    "id": 16,
+    "image": "images/tarot-16.jpg",
+    "name": {
+      "de": "Der Turm",
+      "tr": "Yıkılan Kule",
+      "en": "The Tower",
+      "sr": "Kula",
+      "sk": "Veža"
+    }
+  },
+  {
+    "id": 17,
+    "image": "images/tarot-17.jpg",
+    "name": {
+      "de": "Der Stern",
+      "tr": "Yıldız",
+      "en": "The Star",
+      "sr": "Zvezda",
+      "sk": "Hviezda"
+    }
+  },
+  {
+    "id": 18,
+    "image": "images/tarot-18.jpg",
+    "name": {
+      "de": "Der Mond",
+      "tr": "Ay",
+      "en": "The Moon",
+      "sr": "Mesec",
+      "sk": "Mesiac"
+    }
+  },
+  {
+    "id": 19,
+    "image": "images/tarot-19.jpg",
+    "name": {
+      "de": "Die Sonne",
+      "tr": "Güneş",
+      "en": "The Sun",
+      "sr": "Sunce",
+      "sk": "Slnko"
+    }
+  },
+  {
+    "id": 20,
+    "image": "images/tarot-20.jpg",
+    "name": {
+      "de": "Das Gericht",
+      "tr": "Mahkeme / Yargı",
+      "en": "Judgement",
+      "sr": "Sud",
+      "sk": "Súd"
+    }
+  },
+  {
+    "id": 21,
+    "image": "images/tarot-21.jpg",
+    "name": {
+      "de": "Die Welt",
+      "tr": "Dünya",
+      "en": "The World",
+      "sr": "Svet",
+      "sk": "Svet"
+    }
+  },
+  {
+    "id": 22,
+    "image": "images/tarot-22.jpg",
+    "name": {
+      "de": "Der Narr",
+      "tr": "Deli / Joker / Aptal",
+      "en": "The Fool",
+      "sr": "Luda",
+      "sk": "Blázon"
+    }
+  }
+]
