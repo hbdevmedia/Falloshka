@@ -336,6 +336,9 @@ function initLanguage() {
     selector.addEventListener("change", () => {
       localStorage.setItem("lang", selector.value);
       applyLanguage(selector.value);
+      // ✅ DİL DEĞİŞİNCE AÇIK KART ADLARINI GÜNCELLE
+      updateOpenedCardNames();
+
     });
   }
 }
@@ -393,6 +396,19 @@ function renderCards() {
   });
 }
 
+function updateOpenedCardNames() {
+  const lang = localStorage.getItem("lang") || "en";
+
+  document.querySelectorAll(".tarot-card.open").forEach((cardEl, index) => {
+    const card = selectedCards[index];
+    if (!card) return;
+
+    const btn = cardEl.querySelector(".card-name-btn");
+    if (!btn) return;
+
+    btn.textContent = card.name[lang] || card.name.en;
+  });
+}
 
 // Sonuç üret
 function updateResult(card) {
@@ -452,7 +468,32 @@ document.getElementById("cardModal")?.addEventListener("click", e => {
 
 document.addEventListener("DOMContentLoaded", async () => {
   initLanguage();
-    // Sadece reading.html'de çalışsın
+
+  /* ===============================
+     MODAL KAPATMA
+  =============================== */
+
+  const modal = document.getElementById("cardModal");
+  const closeBtn = document.getElementById("closeModal");
+
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+      modal.classList.add("hidden");
+    });
+  }
+
+  if (modal) {
+    modal.addEventListener("click", e => {
+      if (e.target === modal) {
+        modal.classList.add("hidden");
+      }
+    });
+  }
+
+  /* ===============================
+     TAROT OKUMA
+  =============================== */
+
   if (document.querySelector(".tarot-spread")) {
     await loadTarotCards();
     await loadTarotMeanings();
