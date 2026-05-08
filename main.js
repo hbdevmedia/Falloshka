@@ -6,7 +6,7 @@ const translations = {
   en: {
     /* NAV */
     navHome: "Home",
-    navReading: "Your Reading",
+    navReading: "Tarot Reading",
     navAbout: "About",
 
     /* HOME (index.html) */
@@ -59,7 +59,7 @@ const translations = {
     readingResultNote:
       "Remember, this reading reflects possibilities, not certainties.",
 
-    tarotBtnDraw: "Shuffle Cards",
+    tarotShuffleBtn: "Shuffle Cards",
     /* FOOTER */
     footerText:
       "This content is for entertainment purposes only."
@@ -68,7 +68,7 @@ const translations = {
   de: {
   /* NAV */
   navHome: "Start",
-  navReading: "Deine Legung",
+  navReading: "Tarot-Lesung",
   navAbout: "Über",
 
   /* HOME (index.html) */
@@ -121,7 +121,7 @@ const translations = {
   readingResultNote:
     "Diese Lesung zeigt Möglichkeiten, keine Gewissheiten.",
   
-  tarotBtnDraw: "Karten mischen",
+  tarotShuffleBtn: "Karten mischen",
   /* FOOTER */
   footerText:
     "Dieser Inhalt dient ausschließlich zu Unterhaltungszwecken."
@@ -129,7 +129,7 @@ const translations = {
 sr: {
   /* NAV */
   navHome: "Početna",
-  navReading: "Tumačenje",
+  navReading: "Tarot tumačenje",
   navAbout: "O nama",
 
   /* HOME (index.html) */
@@ -182,7 +182,7 @@ sr: {
   readingResultNote:
     "Ovo tumačenje prikazuje mogućnosti, ne sigurnosti.",
   
-  tarotBtnDraw: "Promešaj karte",
+  tarotShuffleBtn: "Promešaj karte",
   /* FOOTER */
   footerText:
     "Ovaj sadržaj je namenjen isključivo zabavi."
@@ -190,7 +190,7 @@ sr: {
 sk: {
   /* NAV */
   navHome: "Domov",
-  navReading: "Výklad",
+  navReading: "Tarotový výklad",
   navAbout: "O nás",
 
   /* HOME (index.html) */
@@ -243,7 +243,7 @@ sk: {
   readingResultNote:
     "Tento výklad zobrazuje možnosti, nie istoty.",
 
-  tarotBtnDraw: "Zamiešať karty",
+  tarotShuffleBtn: "Zamiešať karty",
   /* FOOTER */
   footerText:
     "Tento obsah slúži len na zábavné účely."
@@ -251,7 +251,7 @@ sk: {
 
   tr: {
     navHome: "Ana Sayfa",
-    navReading: "Falın",
+    navReading: "Tarot Falın",
     navAbout: "Hakkında",
 
     homeHeroTitle: "İçsel Gizemlerini Keşfet",
