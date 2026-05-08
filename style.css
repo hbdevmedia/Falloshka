@@ -511,3 +511,19 @@ footer {
   width: auto;        /* ✅ full davranışı engellenir */
   max-width: none;
 }
+
+/* Tarot card shake animation */
+@keyframes tarotShake {
+  0%   { transform: translateX(0); }
+  15%  { transform: translateX(-6px) rotate(-1deg); }
+  30%  { transform: translateX(6px) rotate(1deg); }
+  45%  { transform: translateX(-5px) rotate(-1deg); }
+  60%  { transform: translateX(5px) rotate(1deg); }
+  75%  { transform: translateX(-3px) rotate(0deg); }
+  100% { transform: translateX(0); }
+}
+
+/* Shake state */
+.tarot-card.shaking {
+  animation: tarotShake 0.45s ease-in-out;
+}
