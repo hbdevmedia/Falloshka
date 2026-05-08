@@ -182,7 +182,7 @@ select {
 
 /* Kart açıldığında döner */
 .tarot-card.open .card-inner {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
 }
 
 /* Ortak yüz ayarı */
