@@ -188,7 +188,7 @@ select {
 
 /* Açılma animasyonu */
 .tarot-card.revealing {
-  transform: scale(1.05);
+  transform: rotateY(360deg) scale(1.05);
 }
 
 /* Açılmış kart */
