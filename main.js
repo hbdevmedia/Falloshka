@@ -542,6 +542,19 @@ function showCombinationReading() {
   writeNarrative(text || "Yorum Henüz mevcut değil");
 }
 
+function shakeCardsThenReset() {
+  const cards = document.querySelectorAll(".tarot-card");
+
+  // 1️⃣ Shake class ekle
+  cards.forEach(card => card.classList.add("shaking"));
+
+  // 2️⃣ Animasyon bitince reset yap
+  setTimeout(() => {
+    cards.forEach(card => card.classList.remove("shaking"));
+    resetTarot();
+  }, 450); // animation süresiyle aynı
+}
+
 function resetTarot() {
   // 1️⃣ Kart container’ı al
   const spread = document.querySelector(".tarot-spread");
@@ -637,6 +650,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // ✅ Shuffle / Reset burada bağlanıyor
   document.getElementById("drawBtn")?.addEventListener("click", () => {
-    resetTarot();
+    shakeCardsThenReset();
   });
 });
