@@ -310,13 +310,16 @@ sk: {
 
 function applyLanguage(lang) {
   document.documentElement.lang = lang;
-
   document.querySelectorAll("[data-i18n]").forEach(el => {
+    // ✅ Dinamik olarak yazdığımız fal metnini dil değişiminde ezme
+    if (el.dataset.dynamic === "true") return;
+
     const key = el.dataset.i18n;
     if (translations[lang]?.[key]) {
       el.textContent = translations[lang][key];
     }
   });
+
 
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     const key = el.dataset.i18nPlaceholder;
@@ -338,8 +341,12 @@ function initLanguage() {
       applyLanguage(selector.value);
       // ✅ DİL DEĞİŞİNCE AÇIK KART ADLARINI GÜNCELLE
       updateOpenedCardNames();
-
+    
+      if (opened.every(v => v) && combinationData) {
+        showCombinationReading();
+      }
     });
+
   }
 }
 
@@ -350,7 +357,7 @@ function initLanguage() {
 
 let tarotDeck = [];
 let selectedCards = [];
-
+let opened = [false, false, false];
 // JSON yükle
 async function loadTarotCards() {
   const res = await fetch("./tarot-cards.json");
@@ -384,6 +391,11 @@ function renderCards() {
       // ✅ SADECE open — flip burada tetiklenir
       cardEl.classList.add("open");
 
+      // ✅ açılma takibi + 3 kart tamamlanınca falı yaz
+      opened[index] = true;
+      if (opened.every(v => v)) {
+        showCombinationReading();
+      }
       // ✅ Alt butonu güncelle
       const btn = nameButtons[index];
       btn.textContent = card.name[lang] || card.name.en;
@@ -479,6 +491,46 @@ async function loadCombinationFile(firstCardId) {
   comboFileId = firstCardId;
 }
 
+function getComboText(entry, lang) {
+  // reading çok dilli obje ise
+  if (entry?.reading && typeof entry.reading === "object") {
+    return entry.reading[lang] || entry.reading.en || "";
+  }
+  // eski format (string) destek
+  if (typeof entry?.reading === "string") return entry.reading;
+  return "";
+}
+
+function writeNarrative(text) {
+  // ✅ result-box içindeki ilk <p> = readingResultText
+  const p = document.querySelector(".result-box p");
+  if (!p) return;
+
+  p.dataset.dynamic = "true";
+  p.textContent = text;
+}
+
+function showCombinationReading() {
+  const lang = localStorage.getItem("lang") || "en";
+
+  // 3 kart da seçilmiş olmalı
+  if (!selectedCards[0] || !selectedCards[1] || !selectedCards[2]) return;
+  if (!combinationData?.combinations) return;
+
+  // Anahtar: soldaki kart her zaman referans (index 0)
+  const key = `${selectedCards[0].id}-${selectedCards[1].id}-${selectedCards[2].id}`;
+  const entry = combinationData.combinations[key];
+
+  // ✅ İSTEDİĞİN FALLBACK
+  if (!entry) {
+    writeNarrative("Yorum Henüz mevcut değil");
+    return;
+  }
+
+  const text = getComboText(entry, lang);
+  writeNarrative(text || "Yorum Henüz mevcut değil");
+}
+
 /* ==================================================
    INIT
 ================================================== */
@@ -515,7 +567,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadTarotCards();
     await loadTarotMeanings();
     drawCards(3);
-    
+    opened = [false, false, false]
     await loadCombinationFile(selectedCards[0].id);
 
     renderCards();
