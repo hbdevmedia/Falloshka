@@ -529,31 +529,41 @@ footer {
 }
 
 /* =========================
-   TAROT SMOKE EFFECT - SAFE
+   TAROT SMOKE EFFECT (NON-BLOCKING)
 ========================= */
 
 .tarot-card {
   position: relative;
 }
 
-/* Smoke overlay – independent layer */
+/* Smoke overlay – DOES NOT block image */
 .card-smoke {
   position: absolute;
-  inset: -20%;
+  inset: -15%;
   background:
-    radial-gradient(circle at 30% 40%, rgba(255,255,255,0.25), transparent 40%),
-    radial-gradient(circle at 70% 60%, rgba(255,255,255,0.2), transparent 45%),
-    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.18), transparent 50%);
+    radial-gradient(circle at 30% 40%, rgba(255,255,255,0.35), transparent 45%),
+    radial-gradient(circle at 70% 60%, rgba(255,255,255,0.25), transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.2), transparent 55%);
 
   opacity: 0;
   pointer-events: none;
+
+  /* 🔑 CRITICAL PART */
+  mix-blend-mode: screen;   /* ✅ üstte ama maskelemez */
   filter: blur(14px);
-  z-index: 3;              /* card-inner üstünde */
+
+  z-index: 1;               /* ✅ card-inner'ın ALTINDA */
+}
+
+/* card-inner flip yapıyor, üstte kalmalı */
+.card-inner {
+  position: relative;
+  z-index: 2;
 }
 
 /* Smoke animation */
 .tarot-card.smoke .card-smoke {
-  animation: smokeFadeSafe 0.75s ease-out forwards;
+  animation: smokeFadeSafe 0.7s ease-out forwards;
 }
 
 @keyframes smokeFadeSafe {
@@ -562,10 +572,10 @@ footer {
     transform: scale(1);
   }
   40% {
-    opacity: 0.9;
+    opacity: 1;
   }
   100% {
     opacity: 0;
-    transform: scale(1.35);
+    transform: scale(1.3);
   }
 }
