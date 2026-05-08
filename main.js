@@ -537,6 +537,46 @@ function showCombinationReading() {
   writeNarrative(text || "Yorum Henüz mevcut değil");
 }
 
+function resetTarot() {
+  // 1️⃣ Kartları kapat (UI reset)
+  document.querySelectorAll(".tarot-card").forEach(cardEl => {
+    cardEl.classList.remove("open");
+
+    const front = cardEl.querySelector(".card-front");
+    if (front) {
+      front.style.backgroundImage = "";
+    }
+  });
+
+  // 2️⃣ Kart isim butonlarını gizle
+  document.querySelectorAll(".card-name-btn").forEach(btn => {
+    btn.classList.add("hidden");
+    btn.textContent = "";
+  });
+
+  // 3️⃣ Sonuç metnini temizle (default metne dön)
+  const resultP = document.querySelector(".result-box p");
+  if (resultP) {
+    delete resultP.dataset.dynamic; // ✅ i18n tekrar çalışabilsin
+    const lang = localStorage.getItem("lang") || "en";
+    resultP.textContent = translations[lang].readingResultText;
+  }
+
+  // 4️⃣ State sıfırla
+  opened = [false, false, false];
+  combinationData = null;
+  comboFileId = null;
+
+  // 5️⃣ Kartları yeniden karıştır ve seç
+  drawCards(3);
+
+  // 6️⃣ Yeni kombinasyon dosyasını preload et
+  loadCombinationFile(selectedCards[0].id);
+
+  // 7️⃣ Kartlara tekrar click bağla
+  renderCards();
+}
+
 /* ==================================================
    INIT
 ================================================== */
@@ -578,4 +618,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     renderCards();
   }
+
+  // ✅ Shuffle / Reset burada bağlanıyor
+  document.getElementById("drawBtn")?.addEventListener("click", () => {
+    resetTarot();
+  });
 });
