@@ -28,7 +28,7 @@ body {
   /*background: rgba(20, 10, 40, 0.85);  ✅ hafif şeffaf */
   backdrop-filter: blur(6px);         /* ✅ cam efekti */
 }
-``
+
 
 .brand {
   font-size: 26px;
