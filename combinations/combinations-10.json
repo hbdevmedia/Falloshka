@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "startsWith": 10,
+    "card": "Wheel of Fortune"
+  },
+  "combinations": {
+    "10-1-3": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 3,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-4": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 4,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-5": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 5,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-6": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 6,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-7": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 7,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-8": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 8,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-9": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 9,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-10": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 10,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-11": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 11,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-12": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 12,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-13": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 13,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-14": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 14,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-15": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 15,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-16": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 16,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-17": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 17,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-18": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 18,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-19": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 19,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-20": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 20,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-21": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 21,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    },
+    "10-1-22": {
+      "pastId": 10,
+      "presentId": 1,
+      "futureId": 22,
+      "reading": {
+        "en": "Dumy EN",
+        "tr": "Dumy TR",
+        "de": "Dumy DE",
+        "sk": "Dumy SK",
+        "sr": "Dumy SR"
+      }
+    }
+  }
+}

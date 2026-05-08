@@ -450,15 +450,34 @@ function openModal(card) {
   document.getElementById("cardModal").classList.remove("hidden");
 }
 
-document.getElementById("closeModal")?.addEventListener("click", () => {
-  document.getElementById("cardModal").classList.add("hidden");
-});
+// document.getElementById("closeModal")?.addEventListener("click", () => {
+//   document.getElementById("cardModal").classList.add("hidden");
+// });
 
-document.getElementById("cardModal")?.addEventListener("click", e => {
-  if (e.target.id === "cardModal") {
-    e.currentTarget.classList.add("hidden");
-  }
-});
+// document.getElementById("cardModal")?.addEventListener("click", e => {
+//   if (e.target.id === "cardModal") {
+//     e.currentTarget.classList.add("hidden");
+//   }
+// });
+
+function pad2(n) {
+  return String(n).padStart(2, "0");
+}
+
+let combinationData = null;
+let comboFileId = null;
+
+async function loadCombinationFile(firstCardId) {
+  // Aynı dosyayı tekrar tekrar indirmeyelim
+  if (combinationData && comboFileId === firstCardId) return;
+
+  const fileName = `combinations-${pad2(firstCardId)}.json`;
+
+  // ✅ SENİN SORDUĞUN SATIR TAM OLARAK BURADA:
+  const res = await fetch(`./combinations/${fileName}`);
+  combinationData = await res.json();
+  comboFileId = firstCardId;
+}
 
 /* ==================================================
    INIT
@@ -496,6 +515,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadTarotCards();
     await loadTarotMeanings();
     drawCards(3);
+    
+    await loadCombinationFile(selectedCards[0].id);
+
     renderCards();
   }
 });

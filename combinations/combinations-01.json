@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "startsWith": 1,
+    "card": "The Magician"
+  },
+  "combinations": {
+    "1-2-3": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 3,
+      "reading": {
+        "en": "This tarot reading reflects a past shaped by initiative and self-belief. The Magician suggests a time when personal skills and intention were actively used to shape circumstances. In the present, The High Priestess points to a shift inward, where intuition and unspoken awareness matter more than visible action.\n\nLooking ahead, The Empress introduces an energy of growth and emotional nourishment. This is not a promise, but an energetic tendency suggesting that patience and trust in inner guidance may slowly lead to a more supportive and fertile phase of life.",
+        "tr": "Bu tarot açılımı, geçmişte inisiyatif alma ve kendine inanma ile şekillenmiş bir dönemi yansıtır. Büyücü, kişisel becerilerin ve niyetin koşulları yönlendirmek için aktif biçimde kullanıldığı bir zamanı işaret eder. Şimdiki zamanda Başrahibe, içe dönüşü vurgular; sezgi ve söylenmeyen farkındalık, görünen eylemlerden daha önemli hâle gelir.\n\nİleriye bakıldığında İmparatoriçe, büyüme ve duygusal beslenme enerjisini getirir. Bu bir vaat değildir; ancak sabır ve içsel rehberliğe güvenmenin, zamanla daha destekleyici ve verimli bir yaşam evresine doğru bir eğilim oluşturabileceğini gösterir.",
+        "de": "Diese Tarotlegung spiegelt eine Vergangenheit wider, die von Initiative und Selbstvertrauen geprägt war. Der Magier deutet auf eine Zeit hin, in der persönliche Fähigkeiten und klare Absicht aktiv genutzt wurden, um Umstände zu formen. In der Gegenwart weist die Hohepriesterin auf eine Bewegung nach innen hin, in der Intuition und unausgesprochene Wahrnehmung wichtiger werden als sichtbares Handeln.\n\nMit Blick in die Zukunft bringt die Herrscherin eine Energie von Wachstum und emotionaler Fürsorge. Das ist kein Versprechen, sondern eine energetische Tendenz: Geduld und Vertrauen in die innere Führung können allmählich in eine unterstützendere und fruchtbarere Lebensphase führen.",
+        "sk": "Toto tarotové vyloženie odráža minulosť formovanú iniciatívou a sebadôverou. Kúzelník naznačuje obdobie, keď sa osobné schopnosti a zámer aktívne využívali na usmernenie okolností. V prítomnosti Veľkňažka poukazuje na posun dovnútra, kde intuícia a nevyslovené uvedomenie získavajú väčšiu váhu než viditeľná akcia.\n\nDo budúcnosti Cisárovná prináša energiu rastu a emočného vyživovania. Nie je to sľub, ale skôr tendencia: trpezlivosť a dôvera vo vnútorné vedenie môžu postupne viesť k podpornejšej a „úrodnejšej“ životnej fáze.",
+        "sr": "Ovo tarot tumačenje odražava prošlost oblikovanu inicijativom i verom u sebi. Mađioničar ukazuje na period kada su lične sposobnosti i namera aktivno korišćeni da bi se oblikovale okolnosti. U sadašnjosti Visoka sveštenica ukazuje na okretanje ka unutra, gde intuicija i neizgovorena svest postaju važnije od vidljive akcije.\n\nU budućnosti Carica donosi energiju rasta i emotivne ishrane. Ovo nije obećanje, već energetska tendencija koja sugeriše da strpljenje i poverenje u unutrašnje vođstvo mogu postepeno voditi ka podržavajućoj i plodnijoj životnoj fazi."
+      }
+    },
+
+    "1-2-4": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 4,
+      "reading": {
+        "en": "The past energy of The Magician speaks of trying to take control and make things happen through effort and confidence. At present, The High Priestess suggests uncertainty, silence, or information not yet revealed, encouraging observation rather than reaction.\n\nFor the future, The Emperor represents structure and responsibility as a possible direction. This tarot interpretation does not promise results, but it implies that intuitive clarity may eventually transform into clear boundaries and leadership—if inner understanding is respected before outward action.",
+        "tr": "Geçmişte Büyücü’nün enerjisi, kontrolü ele alma ve çaba ile güven üzerinden bir şeyleri oldurma isteğini anlatır. Şu anda Başrahibe; belirsizlik, sessizlik veya henüz açığa çıkmamış bilgiler olabileceğini işaret eder ve tepki vermektense gözlemlemeyi önerir.\n\nGelecekte İmparator, olası yön olarak düzeni ve sorumluluğu temsil eder. Bu yorum bir sonuç vaat etmez; ancak içsel anlayış dış eylemin önünde tutulursa, sezgisel berraklığın zamanla net sınırlar ve liderliğe dönüşebileceğini ima eder.",
+        "de": "Die Vergangenheit mit dem Magier spricht davon, Kontrolle übernehmen und Dinge durch Einsatz und Selbstvertrauen vorantreiben zu wollen. In der Gegenwart deutet die Hohepriesterin auf Unklarheit, Stille oder noch nicht offengelegte Informationen hin—sie lädt eher zum Beobachten als zum Reagieren ein.\n\nFür die Zukunft steht der Herrscher für Struktur und Verantwortung als mögliche Richtung. Diese Deutung verspricht keine Ergebnisse, deutet jedoch an, dass intuitive Klarheit sich mit der Zeit in klare Grenzen und Führung verwandeln kann—wenn inneres Verstehen vor äußerem Handeln respektiert wird.",
+        "sk": "Minulosť s Kúzelníkom hovorí o snahe prevziať kontrolu a dosiahnuť výsledky cez úsilie a sebadôveru. V prítomnosti Veľkňažka naznačuje neistotu, ticho alebo informácie, ktoré ešte nevyšli na povrch, a povzbudzuje skôr k pozorovaniu než k okamžitej reakcii.\n\nDo budúcnosti Cisár predstavuje štruktúru a zodpovednosť ako možný smer. Tento výklad nesľubuje výsledok, ale naznačuje, že intuitívna jasnosť sa môže časom premeniť na pevné hranice a vedenie—ak sa vnútornému porozumeniu dá prednosť pred vonkajším konaním.",
+        "sr": "Prošlost sa Mađioničarem govori o pokušaju da se preuzme kontrola i da se stvari pokrenu kroz trud i samopouzdanje. U sadašnjosti Visoka sveštenica ukazuje na neizvesnost, tišinu ili informacije koje još nisu otkrivene, podstičući posmatranje umesto impulsivne reakcije.\n\nU budućnosti Car predstavlja strukturu i odgovornost kao mogući pravac. Ovo tumačenje ne obećava ishod, ali sugeriše da se intuitivna jasnoća može vremenom pretvoriti u jasne granice i vođstvo—ako se unutrašnje razumevanje poštuje pre spoljne akcije."
+      }
+    },
+
+    "1-2-5": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 5,
+      "reading": {
+        "en": "This spread shows movement from personal will toward shared meaning. In the past, The Magician reflects individual initiative and self-directed choices. The present High Priestess energy highlights emotional depth and awareness beneath the surface.\n\nThe Hierophant in the future suggests learning through tradition, guidance, or community. This reading does not predict outcomes, but it hints that personal insights may later be integrated into a broader belief system or structured knowledge.",
+        "tr": "Bu açılım, kişisel iradeden ortak anlam ve öğretiye doğru bir geçişi gösterir. Geçmişte Büyücü, bireysel inisiyatif ve kendi yönünü çizen seçimleri anlatır. Şu anda Başrahibe enerjisi, yüzeyin altındaki duygusal derinliği ve farkındalığı öne çıkarır.\n\nGelecekte Aziz/Başrahip (Hierophant), gelenek, rehberlik ya da topluluk aracılığıyla öğrenmeyi işaret eder. Bu okuma sonuç tahmin etmez; ancak kişisel içgörülerin ileride daha geniş bir inanç sistemine veya yapılandırılmış bir bilgiye entegre olabileceğini ima eder.",
+        "de": "Diese Legung zeigt eine Bewegung vom persönlichen Willen hin zu geteilter Bedeutung. In der Vergangenheit steht der Magier für Eigeninitiative und selbstbestimmte Entscheidungen. Die gegenwärtige Energie der Hohepriesterin betont emotionale Tiefe und Wahrnehmung unter der Oberfläche.\n\nDer Hierophant in der Zukunft deutet auf Lernen durch Tradition, Anleitung oder Gemeinschaft hin. Diese Legung sagt keine Ergebnisse voraus, lässt jedoch erkennen, dass persönliche Einsichten später in ein größeres Wertesystem oder strukturiertes Wissen eingebunden werden können.",
+        "sk": "Tento výklad ukazuje presun od osobnej vôle k zdieľanému zmyslu. V minulosti Kúzelník predstavuje iniciatívu a rozhodnutia, ktoré si človek určoval sám. Prítomná energia Veľkňažky zvýrazňuje emocionálnu hĺbku a uvedomenie pod povrchom.\n\nHierofant v budúcnosti naznačuje učenie cez tradíciu, vedenie alebo komunitu. Výklad nepredpovedá výsledok, no naznačuje, že osobné vhľady sa neskôr môžu začleniť do širšieho systému hodnôt alebo do štruktúrovaného poznania.",
+        "sr": "Ovaj raspored pokazuje kretanje od lične volje ka zajedničkom smislu. U prošlosti Mađioničar odražava inicijativu i samostalne izbore. Sadašnja energija Visoke sveštenice ističe emocionalnu dubinu i svest ispod površine.\n\nSveštenik (Hierophant) u budućnosti sugeriše učenje kroz tradiciju, vođstvo ili zajednicu. Ovaj uvid ne predviđa ishod, ali nagoveštava da se lični uvidi kasnije mogu uklopiti u širi sistem verovanja ili strukturisano znanje."
+      }
+    },
+
+    "1-2-6": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 6,
+      "reading": {
+        "en": "The Magician in the past shows action, experimentation, and confidence in starting something new. Currently, The High Priestess signals emotional sensitivity and a need to listen inwardly rather than seek external answers.\n\nThe Lovers in the future suggests an important choice shaped by values and honesty. This reading reflects potential alignment rather than destiny, implying that clear self-awareness may influence meaningful connections or decisions ahead.",
+        "tr": "Geçmişte Büyücü; eylem, deneme-yanılma ve yeni bir şeye başlama cesaretini gösterir. Şu anda Başrahibe, duygusal hassasiyeti ve dışarıdan yanıt aramak yerine iç sesi dinleme ihtiyacını vurgular.\n\nGelecekte Aşıklar, değerlerle ve dürüstlükle şekillenen önemli bir seçimi işaret eder. Bu okuma kader değil, uyum potansiyelini yansıtır; net öz-farkındalığın, ileride anlamlı bağları veya kararları etkileyebileceğini ima eder.",
+        "de": "Der Magier in der Vergangenheit steht für Handeln, Ausprobieren und Selbstvertrauen beim Neubeginn. In der Gegenwart weist die Hohepriesterin auf emotionale Sensibilität hin und darauf, nach innen zu lauschen, statt äußere Antworten zu erzwingen.\n\nDie Liebenden in der Zukunft deuten auf eine bedeutsame Wahl hin, die von Werten und Ehrlichkeit geprägt ist. Diese Legung beschreibt eher mögliche Ausrichtung als Schicksal und lässt erkennen, dass klare Selbsterkenntnis künftige Verbindungen oder Entscheidungen beeinflussen kann.",
+        "sk": "Kúzelník v minulosti poukazuje na akciu, skúšanie a sebadôveru pri začínaní niečoho nového. V prítomnosti Veľkňažka naznačuje citlivosť a potrebu načúvať vnútru namiesto hľadania odpovedí zvonka.\n\nMilenci v budúcnosti naznačujú dôležitú voľbu formovanú hodnotami a úprimnosťou. Tento výklad nehovorí o osude, ale o možnosti súladu; naznačuje, že jasné sebauvedomenie môže ovplyvniť zmysluplné spojenia alebo rozhodnutia.",
+        "sr": "Mađioničar u prošlosti govori o akciji, istraživanju i samopouzdanju pri započinjanju nečeg novog. U sadašnjosti Visoka sveštenica ukazuje na emotivnu osetljivost i potrebu da se sluša unutrašnji glas, umesto da se odgovori traže spolja.\n\nLjubavnici u budućnosti nagoveštavaju važan izbor oblikovan vrednostima i iskrenošću. Ovo tumačenje govori o mogućem usklađivanju, a ne o sudbini, sugerišući da jasna samosvest može uticati na značajne veze ili odluke."
+      }
+    },
+
+    "1-2-7": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 7,
+      "reading": {
+        "en": "This tarot spread reflects shifting momentum. The Magician suggests a past driven by assertive action and creative force. The present High Priestess indicates a pause where intuition becomes more important than speed.\n\nLooking ahead, The Chariot introduces potential movement and determination. This is not a guarantee, but an energetic suggestion that once inner clarity is reached, focused effort may continue with greater confidence and direction.",
+        "tr": "Bu açılım, değişen ivmeyi yansıtır. Büyücü, geçmişte atak eylemler ve yaratıcı güçle ilerleyen bir dönemi anlatır. Şu anda Başrahibe, hızdan çok sezginin önem kazandığı bir duraklamayı işaret eder.\n\nİleriye bakıldığında Araba, hareket ve kararlılık potansiyelini getirir. Bu bir garanti değildir; ancak içsel berraklık oluştuğunda, odaklı çabanın daha fazla güven ve yön duygusuyla sürebileceğini enerjisel olarak ima eder.",
+        "de": "Diese Legung spiegelt wechselnden Schwung wider. Der Magier deutet auf eine Vergangenheit hin, die von entschlossenem Handeln und kreativer Kraft geprägt war. Die Hohepriesterin in der Gegenwart zeigt eine Pause, in der Intuition wichtiger wird als Geschwindigkeit.\n\nDer Wagen in der Zukunft bringt mögliches Vorankommen und Entschlossenheit. Das ist keine Garantie, sondern ein energetischer Hinweis: Sobald innere Klarheit entsteht, kann fokussierter Einsatz mit mehr Zuversicht und Richtung weitergehen.",
+        "sk": "Tento rozklad odráža meniace sa tempo. Kúzelník naznačuje minulosť poháňanú rozhodnou akciou a tvorivou silou. Veľkňažka v prítomnosti ukazuje pauzu, v ktorej je intuícia dôležitejšia než rýchlosť.\n\nVoz v budúcnosti prináša potenciál pohybu a odhodlania. Nie je to záruka, ale energetický náznak, že po dosiahnutí vnútornej jasnosti môže sústredené úsilie pokračovať s väčšou istotou a smerom.",
+        "sr": "Ovaj tarot raspored odražava promenu zamaha. Mađioničar ukazuje na prošlost vođenu odlučnom akcijom i kreativnom snagom. Visoka sveštenica u sadašnjosti nagoveštava pauzu u kojoj intuicija postaje važnija od brzine.\n\nKočija u budućnosti donosi potencijal kretanja i odlučnosti. To nije garancija, već energetska sugestija da, kada se postigne unutrašnja jasnoća, usmeren napor može nastaviti sa većim samopouzdanjem i pravcem."
+      }
+    },
+
+    "1-2-8": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 8,
+      "reading": {
+        "en": "The past energy of The Magician reflects personal power and self-initiation. In the present, The High Priestess encourages emotional awareness and restraint—suggesting not everything needs to be expressed immediately.\n\nStrength in the future points to calm resilience rather than force. This tarot interpretation implies growth through patience and compassion, where quiet confidence can be more effective than overt control.",
+        "tr": "Geçmişte Büyücü’nün enerjisi, kişisel güç ve kendi kendini başlatma iradesini yansıtır. Şu anda Başrahibe; duygusal farkındalığı ve ölçülülüğü teşvik eder—her şeyin hemen dışa vurulması gerekmediğini hatırlatır.\n\nGelecekte Güç kartı, zorlamadan çok sakin dayanıklılığı vurgular. Bu yorum; sabır ve şefkatle büyümeyi, sessiz özgüvenin bazen açık kontrolden daha etkili olabileceğini ima eder.",
+        "de": "Die Vergangenheit mit dem Magier spiegelt persönliche Kraft und Eigeninitiative wider. In der Gegenwart fördert die Hohepriesterin emotionale Achtsamkeit und Zurückhaltung—nicht alles muss sofort ausgesprochen werden.\n\nDie Kraft in der Zukunft weist auf ruhige Widerstandsfähigkeit statt Druck hin. Diese Deutung lässt Wachstum durch Geduld und Mitgefühl erkennen, wobei stille Zuversicht oft wirksamer sein kann als offensichtliche Kontrolle.",
+        "sk": "Minulosť s Kúzelníkom odráža osobnú silu a iniciatívu. V prítomnosti Veľkňažka podporuje emocionálne uvedomenie a zdržanlivosť—nie všetko musí byť vyjadrené hneď.\n\nSila v budúcnosti poukazuje na pokojnú odolnosť namiesto nátlaku. Výklad naznačuje rast cez trpezlivosť a súcit, kde tichá sebadôvera môže byť účinnejšia než otvorená kontrola.",
+        "sr": "Prošlost sa Mađioničarem odražava ličnu moć i samoinicijativu. U sadašnjosti Visoka sveštenica podstiče emocionalnu svesnost i uzdržanost—ne mora sve odmah da se izgovori ili pokaže.\n\nSnaga u budućnosti ukazuje na mirnu istrajnost umesto sile. Ovo tumačenje sugeriše rast kroz strpljenje i saosećanje, gde tiho samopouzdanje može biti delotvornije od otvorene kontrole."
+      }
+    },
+
+    "1-2-9": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 9,
+      "reading": {
+        "en": "This reading suggests a gradual inward turn. The Magician reflects earlier action and outward focus. The present High Priestess highlights internal signals and subtle emotional shifts.\n\nThe Hermit in the future points to introspection and solitude as a potential phase—not as loss, but as an opportunity to refine understanding before the next outward step.",
+        "tr": "Bu okuma, yavaş yavaş içe dönülen bir süreci işaret eder. Büyücü, önceki eylemi ve dışa dönük odağı yansıtır. Şu anda Başrahibe, iç sinyalleri ve ince duygusal değişimleri öne çıkarır.\n\nGelecekte Ermiş, olası bir dönem olarak içe bakışı ve yalnızlığı gösterir—bu bir kayıp değil; bir sonraki dış adım öncesi anlayışı rafine etmek için bir fırsattır.",
+        "de": "Diese Legung deutet auf eine allmähliche Hinwendung nach innen hin. Der Magier spiegelt früheres Handeln und äußere Ausrichtung wider. Die Hohepriesterin in der Gegenwart betont innere Signale und feine emotionale Veränderungen.\n\nDer Eremit in der Zukunft weist auf Introspektion und Alleinsein als mögliche Phase hin—nicht als Verlust, sondern als Chance, das Verständnis zu schärfen, bevor der nächste äußere Schritt folgt.",
+        "sk": "Tento výklad naznačuje postupný obrat dovnútra. Kúzelník odráža predošlú aktivitu a vonkajšie zameranie. Veľkňažka v prítomnosti zdôrazňuje vnútorné signály a jemné emocionálne posuny.\n\nPustovník v budúcnosti ukazuje introspekciu a samotu ako možnú fázu—nie ako stratu, ale ako príležitosť prehĺbiť porozumenie pred ďalším krokom navonok.",
+        "sr": "Ovo tumačenje sugeriše postepeno okretanje ka unutra. Mađioničar odražava raniju akciju i spoljašnji fokus. Visoka sveštenica u sadašnjosti naglašava unutrašnje signale i suptilne emotivne promene.\n\nPustinjak u budućnosti ukazuje na introspekciju i samoću kao moguću fazu—ne kao gubitak, već kao priliku da se razumevanje produbi pre sledećeg koraka ka spolja."
+      }
+    },
+
+    "1-2-10": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 10,
+      "reading": {
+        "en": "The Magician in the past suggests intentional change and active choices. Currently, The High Priestess signals uncertainty and hidden dynamics at play.\n\nThe Wheel of Fortune in the future indicates change influenced by timing and external forces. This reading does not promise luck, but it suggests that adaptability can help align personal intention with shifting circumstances.",
+        "tr": "Geçmişte Büyücü, bilinçli değişimi ve aktif seçimleri işaret eder. Şu anda Başrahibe, belirsizliği ve perde arkasında işleyen dinamikleri gösterir.\n\nGelecekte Kader Çarkı; zamanlama ve dış etkenlerin etkilediği bir değişimi anlatır. Bu okuma şans vaat etmez; ancak uyum sağlama becerisinin, kişisel niyeti değişen koşullarla hizalamaya yardımcı olabileceğini ima eder.",
+        "de": "Der Magier in der Vergangenheit deutet auf bewusste Veränderung und aktive Entscheidungen hin. In der Gegenwart zeigt die Hohepriesterin Ungewissheit und verborgene Dynamiken.\n\nDas Rad des Schicksals in der Zukunft weist auf Veränderungen hin, die von Timing und äußeren Kräften beeinflusst werden. Diese Legung verspricht kein Glück, legt jedoch nahe, dass Anpassungsfähigkeit hilft, die eigene Absicht mit wandelnden Umständen in Einklang zu bringen.",
+        "sk": "Kúzelník v minulosti naznačuje zámernú zmenu a aktívne rozhodnutia. Veľkňažka v prítomnosti poukazuje na neistotu a skryté vplyvy.\n\nKoleso šťastia v budúcnosti ukazuje zmenu ovplyvnenú načasovaním a vonkajšími silami. Výklad nesľubuje šťastie, no naznačuje, že prispôsobivosť môže pomôcť zladiť osobný zámer s meniacimi sa okolnosťami.",
+        "sr": "Mađioničar u prošlosti ukazuje na namernu promenu i aktivne izbore. Visoka sveštenica u sadašnjosti nagoveštava neizvesnost i skrivene dinamike.\n\nTočak sudbine u budućnosti označava promene pod uticajem vremena i spoljašnjih sila. Ovo tumačenje ne obećava sreću, ali sugeriše da prilagodljivost može pomoći da se lična namera uskladi sa promenljivim okolnostima."
+      }
+    },
+
+    "1-2-11": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 11,
+      "reading": {
+        "en": "This spread shows actions leading toward evaluation. The Magician reflects personal initiative in the past. The present High Priestess suggests reflection before speaking or deciding.\n\nJustice in the future introduces balance and accountability as a possible theme. Energetically, this implies that honest self-awareness may later support fair and considered outcomes.",
+        "tr": "Bu açılım, eylemlerin değerlendirmeye doğru ilerlediğini gösterir. Büyücü, geçmişteki kişisel inisiyatifi yansıtır. Şu anda Başrahibe, konuşmadan ya da karar vermeden önce düşünmeyi önerir.\n\nGelecekte Adalet, olası tema olarak dengeyi ve sorumluluğu getirir. Enerjisel olarak bu; dürüst öz-farkındalığın ileride adil ve ölçülü sonuçları destekleyebileceğini ima eder.",
+        "de": "Diese Legung zeigt Handlungen, die zu einer Bewertung führen. Der Magier spiegelt persönliche Initiative in der Vergangenheit wider. Die Hohepriesterin in der Gegenwart rät zur Reflexion, bevor man spricht oder entscheidet.\n\nDie Gerechtigkeit in der Zukunft bringt Balance und Verantwortlichkeit als mögliches Thema. Energetisch deutet dies an, dass ehrliche Selbsterkenntnis später faire und wohlüberlegte Ergebnisse unterstützen kann.",
+        "sk": "Tento rozklad ukazuje, že činy smerujú k hodnoteniu. Kúzelník odráža osobnú iniciatívu v minulosti. Veľkňažka v prítomnosti radí premýšľať skôr, než sa niečo povie alebo rozhodne.\n\nSpravodlivosť v budúcnosti prináša tému rovnováhy a zodpovednosti. Energeticky to naznačuje, že úprimné sebauvedomenie môže neskôr podporiť férové a uvážené výsledky.",
+        "sr": "Ovaj raspored pokazuje da postupci vode ka proceni. Mađioničar odražava ličnu inicijativu u prošlosti. Visoka sveštenica u sadašnjosti sugeriše promišljanje pre nego što se govori ili donese odluka.\n\nPravda u budućnosti uvodi ravnotežu i odgovornost kao moguću temu. Energetski, to nagoveštava da iskrena samosvest kasnije može podržati pravedne i promišljene ishode."
+      }
+    },
+
+    "1-2-12": {
+      "pastId": 1,
+      "presentId": 2,
+      "futureId": 12,
+      "reading": {
+        "en": "The past Magician energy reflects effort and assertion. The present High Priestess calls for emotional awareness and patience.\n\nThe Hanged Man in the future suggests a shift in perspective rather than immediate action. This implies that releasing old expectations may open new understanding instead of quick progress.",
+        "tr": "Geçmişte Büyücü’nün enerjisi, çabayı ve kendini ortaya koymayı yansıtır. Şu anda Başrahibe, duygusal farkındalık ve sabır çağrısı yapar.\n\nGelecekte Asılan Adam, hemen eylemden çok bakış açısında bir değişimi önerir. Bu; hızlı ilerleme yerine eski beklentileri bırakmanın, yeni bir anlayış alanı açabileceğini ima eder.",
+        "de": "Die Magier-Energie der Vergangenheit spiegelt Einsatz und Durchsetzung wider. Die Hohepriesterin in der Gegenwart ruft zu emotionaler Achtsamkeit und Geduld auf.\n\nDer Gehängte in der Zukunft deutet eher auf einen Perspektivwechsel als auf unmittelbares Handeln hin. Das legt nahe, dass das Loslassen alter Erwartungen neues Verständnis öffnen kann, statt schnellen Fortschritt zu erzwingen.",
+        "sk": "Energia Kúzelníka v minulosti odráža úsilie a presadzovanie sa. Veľkňažka v prítomnosti vyzýva k emocionálnemu uvedomeniu a trpezlivosti.\n\nObesenec v budúcnosti naznačuje skôr zmenu perspektívy než okamžitú akciu. To môže znamenať, že uvoľnenie starých očakávaní otvorí nový pohľad namiesto rýchleho postupu.",
+        "sr": "Energija Mađioničara u prošlosti odražava trud i nastojanje da se stvari poguraju. Visoka sveštenica u sadašnjosti poziva na emotivnu svesnost i strpljenje.\n\nObešeni u budućnosti sugeriše promenu perspektive pre nego brzu akciju. To nagoveštava da puštanje starih očekivanja može otvoriti novo razumevanje umesto forsiranog napretka."
+      }
+    },
+
+    
+    "1-2-13": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 13,
+        "reading": {
+        "en": "This tarot reading reflects a past where personal effort and conscious intention played an important role. The Magician suggests taking initiative and believing in one’s ability to shape circumstances. In the present, The High Priestess introduces a quieter phase, marked by intuition, emotional depth, and unspoken insights.\n\nLooking ahead, Death represents transformation rather than loss. As a tarot interpretation, this points to an ending of an old pattern and the potential for renewal. Energetically, it suggests that inner awareness may prepare the ground for meaningful change.",
+        "tr": "Bu tarot açılımı, geçmişte kişisel çaba ve bilinçli niyetin önemli rol oynadığı bir dönemi yansıtır. Büyücü, inisiyatif almayı ve koşulları şekillendirme gücüne inanmayı anlatır. Şimdiki zamanda Başrahibe; sezgi, duygusal derinlik ve söylenmeyen içgörülerle belirginleşen daha sakin bir evreye işaret eder.\n\nİleriye bakıldığında Ölüm, kayıptan çok dönüşümü temsil eder. Tarot yorumunda bu; eski bir kalıbın kapanması ve yenilenme potansiyeline işaret eder. Enerjisel olarak, içsel farkındalığın anlamlı bir değişim için zemini hazırlayabileceğini söyler.",
+        "de": "Diese Tarotlegung spiegelt eine Vergangenheit wider, in der persönlicher Einsatz und bewusste Absicht eine wichtige Rolle spielten. Der Magier steht für Initiative und den Glauben an die eigene Fähigkeit, Umstände zu gestalten. In der Gegenwart bringt die Hohepriesterin eine ruhigere Phase, geprägt von Intuition, emotionaler Tiefe und unausgesprochenen Einsichten.\n\nMit Blick nach vorn steht der Tod für Transformation statt Verlust. In der Tarotdeutung weist dies auf das Ende eines alten Musters und das Potenzial zur Erneuerung hin. Energetisch deutet es darauf hin, dass innere Bewusstheit den Boden für bedeutsame Veränderung bereiten kann.",
+        "sk": "Toto tarotové vyloženie odráža minulosť, v ktorej hrali dôležitú úlohu osobné úsilie a vedomý zámer. Kúzelník naznačuje iniciatívu a vieru vo vlastnú schopnosť formovať okolnosti. V prítomnosti Veľkňažka prináša tichšiu fázu, poznačenú intuíciou, emocionálnou hĺbkou a nevyslovenými vhľadmi.\n\nDo budúcnosti Smrť predstavuje skôr premenu než stratu. V tarotovej interpretácii to poukazuje na ukončenie starého vzorca a potenciál obnovy. Energeticky to naznačuje, že vnútorné uvedomenie môže pripraviť pôdu pre zmysluplnú zmenu.",
+        "sr": "Ovo tarot tumačenje odražava prošlost u kojoj su lični trud i svesna namera imali važnu ulogu. Mađioničar ukazuje na inicijativu i veru u sopstvenu sposobnost da se okolnosti oblikuju. U sadašnjosti Visoka sveštenica donosi tišu fazu, obeleženu intuicijom, emotivnom dubinom i neizgovorenim uvidima.\n\nU budućnosti Smrt predstavlja transformaciju, a ne gubitak. U tarot interpretaciji to ukazuje na završetak starog obrasca i mogućnost obnove. Energetski, sugeriše da unutrašnja svesnost može pripremiti teren za smislenу promenu."
+        }
+    },
+
+    "1-2-14": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 14,
+        "reading": {
+        "en": "The Magician in the past reflects active involvement and a desire to influence outcomes directly. At present, The High Priestess signals a need to slow down, listen, and respect emotional or intuitive signals that are not yet fully clear.\n\nTemperance in the future introduces an energy of balance and integration. This tarot reading does not promise resolution, but it suggests that patience and moderation may help blend past actions with present awareness, creating a more sustainable emotional rhythm over time.",
+        "tr": "Geçmişte Büyücü, aktif katılımı ve sonuçları doğrudan etkileme arzusunu yansıtır. Şu anda Başrahibe; yavaşlamayı, dinlemeyi ve henüz tam netleşmemiş duygusal ya da sezgisel işaretlere saygı duymayı işaret eder.\n\nGelecekte Denge (Temperance), uyum ve bütünleşme enerjisi getirir. Bu okuma kesin bir çözüm vaat etmez; ancak sabır ve ölçülülüğün, geçmişteki eylemleri şimdiki farkındalıkla harmanlayarak zaman içinde daha sürdürülebilir bir duygusal ritim yaratabileceğini söyler.",
+        "de": "Der Magier in der Vergangenheit spiegelt aktives Einbringen und den Wunsch wider, Ergebnisse direkt zu beeinflussen. In der Gegenwart weist die Hohepriesterin auf die Notwendigkeit hin, zu verlangsamen, zuzuhören und emotionale oder intuitive Signale zu respektieren, die noch nicht vollständig klar sind.\n\nDie Mäßigkeit in der Zukunft bringt eine Energie von Ausgleich und Integration. Diese Legung verspricht keine endgültige Lösung, legt jedoch nahe, dass Geduld und Maß helfen können, vergangene Handlungen mit gegenwärtiger Bewusstheit zu verbinden und so mit der Zeit einen nachhaltigeren emotionalen Rhythmus zu schaffen.",
+        "sk": "Kúzelník v minulosti odráža aktívne zapojenie a túžbu priamo ovplyvniť výsledky. Veľkňažka v prítomnosti naznačuje potrebu spomaliť, počúvať a rešpektovať emocionálne či intuitívne signály, ktoré ešte nie sú úplne jasné.\n\nMiernosť v budúcnosti prináša energiu rovnováhy a integrácie. Tento výklad nesľubuje okamžité vyriešenie, no naznačuje, že trpezlivosť a striedmosť môžu prepojiť minulé činy so súčasným uvedomením a časom vytvoriť udržateľnejší emocionálny rytmus.",
+        "sr": "Mađioničar u prošlosti odražava aktivno učešće i želju da se ishodi direktno oblikuju. Visoka sveštenica u sadašnjosti ukazuje na potrebu da se uspori, oslušne i poštuju emotivni ili intuitivni signali koji još nisu sasvim jasni.\n\nUmerenost u budućnosti donosi energiju ravnoteže i integracije. Ovo tumačenje ne obećava razrešenje, ali sugeriše da strpljenje i umerenost mogu spojiti prošle postupke sa sadašnjom svesnošću i vremenom stvoriti održiviji emotivni ritam."
+        }
+    },
+
+    "1-2-15": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 15,
+        "reading": {
+        "en": "This spread shows a contrast between control and awareness. The Magician represents a past driven by confidence and action. The present High Priestess indicates recognition of deeper emotional layers or hidden motivations.\n\nThe Devil in the future does not predict harm but highlights potential attachments or repeated patterns. As a tarot reading, it suggests that becoming conscious of inner dynamics may help in questioning what truly holds power moving forward.",
+        "tr": "Bu açılım, kontrol ile farkındalık arasındaki zıtlığı gösterir. Büyücü, geçmişte güven ve eylemle ilerleyen bir süreci temsil eder. Şu anda Başrahibe, daha derin duygusal katmanların ya da gizli motivasyonların fark edilmesine işaret eder.\n\nGelecekte Şeytan, zarar öngörmez; fakat olası bağımlılıkları, tutunmaları veya tekrarlayan kalıpları görünür kılar. Tarot yorumunda bu; içsel dinamiklerin bilincine varmanın, ileride gerçekten neyin güç sahibi olduğunu sorgulamaya yardımcı olabileceğini söyler.",
+        "de": "Diese Legung zeigt einen Kontrast zwischen Kontrolle und Bewusstheit. Der Magier steht für eine Vergangenheit, die von Zuversicht und Handeln geprägt war. Die Hohepriesterin in der Gegenwart weist auf das Erkennen tieferer Gefühlsschichten oder verborgener Motive hin.\n\nDer Teufel in der Zukunft sagt kein Unheil voraus, hebt jedoch mögliche Bindungen oder wiederkehrende Muster hervor. Als Tarotdeutung legt er nahe, dass das Bewusstwerden innerer Dynamiken hilft, zu hinterfragen, was künftig tatsächlich Macht ausübt.",
+        "sk": "Tento rozklad ukazuje kontrast medzi kontrolou a uvedomením. Kúzelník predstavuje minulosť poháňanú sebadôverou a činmi. Veľkňažka v prítomnosti naznačuje rozpoznanie hlbších emocionálnych vrstiev alebo skrytých motivácií.\n\nDiabol v budúcnosti nepredpovedá škodu, ale zvýrazňuje možné pripútania alebo opakujúce sa vzorce. Výklad naznačuje, že uvedomenie si vnútorných dynamík môže pomôcť spochybniť, čo má v ďalšom období skutočnú moc.",
+        "sr": "Ovaj raspored pokazuje kontrast između kontrole i svesnosti. Mađioničar predstavlja prošlost vođenu samopouzdanjem i akcijom. Visoka sveštenica u sadašnjosti ukazuje na uviđanje dubljih emotivnih slojeva ili skrivenih motiva.\n\nĐavo u budućnosti ne predviđa štetu, već ističe moguće vezanosti ili ponavljajuće obrasce. Kao tarot tumačenje, sugeriše da osvešćivanje unutrašnjih dinamika može pomoći da se preispita šta zaista drži moć u narednom periodu."
+        }
+    },
+
+    "1-2-16": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 16,
+        "reading": {
+        "en": "The past Magician energy suggests building something through will and action. In the present, The High Priestess points to subtle tensions, growing awareness, and information still beneath the surface.\n\nThe Tower in the future represents sudden change or realization. This tarot interpretation does not imply disaster, but a possible disruption of unstable structures. Energetically, it suggests that what is sensed now may later force clarity and release outdated foundations.",
+        "tr": "Geçmişte Büyücü’nün enerjisi, irade ve eylemle bir şey inşa etmeyi anlatır. Şu anda Başrahibe; ince gerilimlere, artan farkındalığa ve hâlâ yüzeyin altında kalan bilgilere işaret eder.\n\nGelecekte Yıkılan Kule, ani bir değişimi ya da fark edişi temsil eder. Bu yorum felaket anlamına gelmez; fakat sağlam olmayan yapıların sarsılabileceğini ima eder. Enerjisel olarak, şimdi sezilen şeylerin ileride netlik getirip eski temelleri bırakmaya zorlayabileceğini söyler.",
+        "de": "Die Magier-Energie der Vergangenheit deutet darauf hin, etwas durch Willen und Handeln aufzubauen. In der Gegenwart weist die Hohepriesterin auf feine Spannungen, wachsende Bewusstheit und Informationen hin, die noch unter der Oberfläche liegen.\n\nDer Turm in der Zukunft steht für plötzliche Veränderung oder Erkenntnis. Diese Deutung bedeutet kein Desaster, sondern eine mögliche Erschütterung instabiler Strukturen. Energetisch legt sie nahe, dass das, was jetzt geahnt wird, später Klarheit erzwingen und überholte Grundlagen lösen kann.",
+        "sk": "Energia Kúzelníka v minulosti naznačuje budovanie niečoho cez vôľu a konanie. Veľkňažka v prítomnosti poukazuje na jemné napätia, rastúce uvedomenie a informácie, ktoré sú ešte pod povrchom.\n\nVeža v budúcnosti predstavuje náhlu zmenu alebo uvedomenie. Tento výklad neznamená katastrofu, skôr možné narušenie nestabilných štruktúr. Energeticky naznačuje, že to, čo sa teraz tuší, môže neskôr prinútiť k jasnosti a uvoľneniu zastaraných základov.",
+        "sr": "Energija Mađioničara u prošlosti sugeriše građenje nečega kroz volju i akciju. Visoka sveštenica u sadašnjosti ukazuje na suptilne tenzije, rastuću svest i informacije koje su još ispod površine.\n\nKula u budućnosti predstavlja iznenadnu promenu ili uvid. Ovo tumačenje ne implicira katastrofu, već moguće narušavanje nestabilnih struktura. Energetski, sugeriše da ono što se sada naslućuje kasnije može nametnuti jasnoću i osloboditi zastarele temelje."
+        }
+    },
+
+    "1-2-17": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 17,
+        "reading": {
+        "en": "This reading reflects movement from effort toward trust. The Magician indicates that past progress came through deliberate action. The present High Priestess suggests emotional sensitivity and quiet observation.\n\nThe Star in the future brings an energy of hope and renewal. As a tarot reading, it implies that honoring intuition may gradually restore confidence and emotional openness, offering a gentle sense of direction rather than immediate certainty.",
+        "tr": "Bu okuma, çabadan güvene doğru bir geçişi yansıtır. Büyücü, geçmişteki ilerlemenin bilinçli eylemlerle geldiğini gösterir. Şu anda Başrahibe; duygusal hassasiyeti ve sessiz gözlemi işaret eder.\n\nGelecekte Yıldız, umut ve yenilenme enerjisi getirir. Tarot yorumunda bu; sezgiye saygı duymanın, zamanla özgüveni ve duygusal açıklığı yeniden güçlendirebileceğini ve anlık kesinlikten çok nazik bir yön duygusu sunabileceğini ima eder.",
+        "de": "Diese Legung spiegelt eine Bewegung von Anstrengung hin zu Vertrauen wider. Der Magier zeigt, dass vergangener Fortschritt durch bewusstes Handeln entstand. Die Hohepriesterin in der Gegenwart deutet auf emotionale Sensibilität und stille Beobachtung.\n\nDer Stern in der Zukunft bringt Hoffnung und Erneuerung. Als Tarotdeutung legt er nahe, dass das Ehren der Intuition allmählich Zuversicht und emotionale Offenheit wiederherstellen kann—mit einem sanften Gefühl von Richtung statt sofortiger Gewissheit.",
+        "sk": "Tento výklad odráža posun od úsilia k dôvere. Kúzelník naznačuje, že minulý pokrok prichádzal cez vedomé konanie. Veľkňažka v prítomnosti poukazuje na citlivosť a tiché pozorovanie.\n\nHviezda v budúcnosti prináša energiu nádeje a obnovy. Výklad naznačuje, že rešpektovanie intuície môže postupne obnoviť sebadôveru a emocionálnu otvorenosť, pričom ponúka jemný pocit smeru namiesto okamžitej istoty.",
+        "sr": "Ovo tumačenje odražava kretanje od napora ka poverenju. Mađioničar pokazuje da je prošli napredak dolazio kroz svesnu akciju. Visoka sveštenica u sadašnjosti ukazuje na emotivnu osetljivost i tiho posmatranje.\n\nZvezda u budućnosti donosi energiju nade i obnove. Kao tarot čitanje, sugeriše da poštovanje intuicije može postepeno vratiti samopouzdanje i emotivnu otvorenost, nudeći blag osećaj pravca umesto trenutne sigurnosti."
+        }
+    },
+
+    "1-2-18": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 18,
+        "reading": {
+        "en": "The Magician reflects past confidence and outward expression. In the present, The High Priestess deepens emotional awareness and perception beyond logic.\n\nThe Moon in the future suggests continued uncertainty or emotional complexity. This reading does not frame confusion as failure, but as a phase where intuition becomes essential. Energetically, learning to navigate ambiguity may lead to deeper self-understanding.",
+        "tr": "Büyücü, geçmişteki güveni ve dışa dönük ifadeyi yansıtır. Şu anda Başrahibe, mantığın ötesinde algıyı ve duygusal farkındalığı derinleştirir.\n\nGelecekte Ay, süren belirsizliği veya duygusal karmaşıklığı işaret eder. Bu okuma, kafa karışıklığını bir başarısızlık olarak görmez; sezginin gerekli olduğu bir evre olarak ele alır. Enerjisel olarak, belirsizlikte yol almayı öğrenmek daha derin bir öz-anlayışa götürebilir.",
+        "de": "Der Magier spiegelt vergangene Zuversicht und äußeren Ausdruck wider. In der Gegenwart vertieft die Hohepriesterin emotionale Wahrnehmung jenseits der Logik.\n\nDer Mond in der Zukunft deutet auf anhaltende Ungewissheit oder emotionale Komplexität hin. Diese Legung bewertet Verwirrung nicht als Scheitern, sondern als Phase, in der Intuition wesentlich wird. Energetisch kann das Lernen, mit Mehrdeutigkeit umzugehen, zu tieferem Selbstverständnis führen.",
+        "sk": "Kúzelník odráža minulú sebadôveru a vonkajšie vyjadrenie. Veľkňažka v prítomnosti prehlbuje emocionálne uvedomenie a vnímanie za hranicami logiky.\n\nMesiac v budúcnosti naznačuje pokračujúcu neistotu alebo emocionálnu zložitosť. Výklad nepovažuje zmätok za zlyhanie, ale za fázu, kde je intuícia nevyhnutná. Energeticky môže učenie sa pohybovať v nejednoznačnosti viesť k hlbšiemu sebapoznaniu.",
+        "sr": "Mađioničar odražava prošlu sigurnost i spoljašnje izražavanje. Visoka sveštenica u sadašnjosti produbljuje emotivnu svesnost i percepciju iznad logike.\n\nMesec u budućnosti nagoveštava nastavak neizvesnosti ili emotivne složenosti. Ovo čitanje ne vidi zbunjenost kao neuspeh, već kao fazu u kojoj intuicija postaje ključna. Energetski, učenje da se plovi kroz nejasnoće može dovesti do dubljeg razumevanja sebe."
+        }
+    },
+
+    "1-2-19": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 19,
+        "reading": {
+        "en": "This spread highlights contrast between shadow and clarity. The Magician shows past active engagement, while The High Priestess reflects current emotional depth and reflection.\n\nThe Sun in the future represents warmth, visibility, and understanding. As a tarot interpretation, it suggests that what feels inward or unclear now may progressively move into openness and confidence, guided by honest emotional awareness.",
+        "tr": "Bu açılım, gölge ile açıklık arasındaki karşıtlığı vurgular. Büyücü geçmişte aktif katılımı gösterirken, Başrahibe şimdiki duygusal derinliği ve içe dönük düşünmeyi yansıtır.\n\nGelecekte Güneş; sıcaklık, görünürlük ve anlayışı temsil eder. Tarot yorumunda bu; şu an içte kalan ya da belirsiz hissedilen şeylerin, dürüst duygusal farkındalıkla zaman içinde açıklığa ve özgüvene doğru ilerleyebileceğini ima eder.",
+        "de": "Diese Legung betont den Kontrast zwischen Schatten und Klarheit. Der Magier zeigt vergangenes aktives Engagement, während die Hohepriesterin gegenwärtige emotionale Tiefe und Reflexion widerspiegelt.\n\nDie Sonne in der Zukunft steht für Wärme, Sichtbarkeit und Verstehen. Als Tarotdeutung legt sie nahe, dass das, was sich jetzt innerlich oder unklar anfühlt, sich allmählich zu Offenheit und Zuversicht entwickeln kann—geführt von ehrlicher emotionaler Bewusstheit.",
+        "sk": "Tento rozklad zvýrazňuje kontrast medzi tieňom a jasnosťou. Kúzelník ukazuje minulú aktívnu angažovanosť, kým Veľkňažka odráža súčasnú emocionálnu hĺbku a premýšľanie.\n\nSlnko v budúcnosti predstavuje teplo, viditeľnosť a porozumenie. Výklad naznačuje, že to, čo je teraz vnútorné alebo nejasné, sa môže postupne presúvať do otvorenosti a sebadôvery, vedené úprimným emocionálnym uvedomením.",
+        "sr": "Ovaj raspored naglašava kontrast između senke i jasnoće. Mađioničar pokazuje prošlu aktivnu uključenost, dok Visoka sveštenica odražava sadašnju emotivnu dubinu i promišljanje.\n\nSunce u budućnosti predstavlja toplinu, vidljivost i razumevanje. Kao tarot tumačenje, sugeriše da ono što je sada unutrašnje ili nejasno može postepeno preći u otvorenost i samopouzdanje, vođeno iskrenom emotivnom svesnošću."
+        }
+    },
+
+    "1-2-20": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 20,
+        "reading": {
+        "en": "The past suggests conscious effort and creation through The Magician. In the present, The High Priestess asks for listening rather than acting.\n\nJudgement in the future points to awakening and reassessment. This reading does not promise a final outcome, but it implies that self-awareness may lead to important realizations and choices that reshape direction with greater clarity.",
+        "tr": "Geçmiş, Büyücü aracılığıyla bilinçli çabayı ve yaratımı işaret eder. Şu anda Başrahibe, eylemden çok dinlemeyi ve iç sesi duymayı ister.\n\nGelecekte Yargı, uyanışa ve yeniden değerlendirmeye işaret eder. Bu okuma nihai bir sonuç vaat etmez; ancak öz-farkındalığın, yönü daha büyük bir berraklıkla yeniden şekillendirecek önemli fark edişlere ve seçimlere götürebileceğini ima eder.",
+        "de": "Die Vergangenheit deutet auf bewussten Einsatz und Schaffen durch den Magier hin. In der Gegenwart fordert die Hohepriesterin zum Zuhören statt zum Handeln auf.\n\nDas Gericht in der Zukunft weist auf Erwachen und Neubewertung hin. Diese Legung verspricht kein endgültiges Ergebnis, deutet jedoch an, dass Selbsterkenntnis zu wichtigen Einsichten und Entscheidungen führen kann, die die Richtung mit größerer Klarheit neu ausrichten.",
+        "sk": "Minulosť naznačuje vedomé úsilie a tvorenie cez Kúzelníka. Veľkňažka v prítomnosti žiada počúvanie skôr než konanie.\n\nSúd v budúcnosti poukazuje na precitnutie a prehodnotenie. Výklad nesľubuje konečný výsledok, no naznačuje, že sebauvedomenie môže viesť k dôležitým uvedomeniam a voľbám, ktoré zmenia smer s väčšou jasnosťou.",
+        "sr": "Prošlost ukazuje na svesni trud i stvaranje kroz Mađioničara. Visoka sveštenica u sadašnjosti traži slušanje umesto delovanja.\n\nSud u budućnosti ukazuje na buđenje i preispitivanje. Ovo tumačenje ne obećava konačan ishod, ali sugeriše da samosvest može dovesti do važnih uvida i odluka koje preusmeravaju pravac uz veću jasnoću."
+        }
+    },
+
+    "1-2-21": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 21,
+        "reading": {
+        "en": "This tarot spread shows evolution toward wholeness. The Magician indicates active beginnings, while The High Priestess reflects a phase of inward understanding.\n\nThe World in the future suggests completion or acceptance as an energetic possibility. This is not perfection, but a sense of integration where past efforts and present insight may come together into a broader understanding of one’s journey.",
+        "tr": "Bu tarot açılımı, bütünlüğe doğru evrimi gösterir. Büyücü aktif başlangıçları işaret ederken, Başrahibe içsel anlayışın öne çıktığı bir evreyi yansıtır.\n\nGelecekte Dünya, enerjisel bir olasılık olarak tamamlanma ya da kabullenişi önerir. Bu mükemmellik değildir; geçmiş çaba ile şimdiki içgörünün birleşip, kişinin yolculuğuna dair daha geniş bir anlayışa dönüşmesi gibi bir bütünleşme hissidir.",
+        "de": "Diese Tarotlegung zeigt eine Entwicklung hin zur Ganzheit. Der Magier steht für aktive Anfänge, während die Hohepriesterin eine Phase inneren Verstehens widerspiegelt.\n\nDie Welt in der Zukunft deutet auf Abschluss oder Annahme als energetische Möglichkeit hin. Das ist keine Perfektion, sondern ein Gefühl von Integration, in dem vergangene Bemühungen und gegenwärtige Einsichten zu einem größeren Verständnis des eigenen Weges zusammenfinden können.",
+        "sk": "Tento tarotový rozklad ukazuje vývoj smerom k celistvosti. Kúzelník naznačuje aktívne začiatky, zatiaľ čo Veľkňažka odráža fázu vnútorného porozumenia.\n\nSvet v budúcnosti naznačuje dokončenie alebo prijatie ako energetickú možnosť. Nejde o dokonalosť, ale o pocit integrácie, kde sa minulé úsilie a súčasný vhľad môžu spojiť do širšieho pochopenia vlastnej cesty.",
+        "sr": "Ovaj tarot raspored pokazuje evoluciju ka celovitosti. Mađioničar ukazuje na aktivne početke, dok Visoka sveštenica odražava fazu unutrašnjeg razumevanja.\n\nSvet u budućnosti sugeriše završetak ili prihvatanje kao energetsku mogućnost. To nije savršenstvo, već osećaj integracije u kome se prošli trud i sadašnji uvid mogu spojiti u šire razumevanje sopstvenog putovanja."
+        }
+    },
+
+    "1-2-22": {
+        "pastId": 1,
+        "presentId": 2,
+        "futureId": 22,
+        "reading": {
+        "en": "The Magician reflects a past of intention and control. The High Priestess in the present indicates emotional awareness and restraint.\n\nThe Fool in the future introduces openness and new beginnings. As a tarot reading, this suggests a potential release from overplanning, allowing curiosity and trust to guide the next step—shaped by intuition rather than certainty.",
+        "tr": "Büyücü, geçmişte niyet ve kontrolün öne çıktığı bir dönemi yansıtır. Şu anda Başrahibe, duygusal farkındalığı ve ölçülü kalmayı işaret eder.\n\nGelecekte Deli (The Fool), açıklık ve yeni başlangıçlar getirir. Tarot yorumunda bu; aşırı planlamayı bırakma potansiyelini ve bir sonraki adımda merak ile güvenin—kesinlikten çok sezgiyle—yol göstermesine izin vermeyi önerir.",
+        "de": "Der Magier spiegelt eine Vergangenheit von Absicht und Kontrolle wider. Die Hohepriesterin in der Gegenwart steht für emotionale Bewusstheit und Zurückhaltung.\n\nDer Narr in der Zukunft bringt Offenheit und Neubeginn. Als Tarotdeutung legt dies nahe, sich vom Überplanen zu lösen und Neugier sowie Vertrauen den nächsten Schritt führen zu lassen—geprägt von Intuition statt Gewissheit.",
+        "sk": "Kúzelník odráža minulosť poznačenú zámerom a kontrolou. Veľkňažka v prítomnosti naznačuje emocionálne uvedomenie a zdržanlivosť.\n\nBlázon v budúcnosti prináša otvorenosť a nové začiatky. Výklad naznačuje možnosť uvoľniť sa z nadmerného plánovania a dovoliť, aby ďalší krok viedla zvedavosť a dôvera—formované skôr intuíciou než istotou.",
+        "sr": "Mađioničar odražava prošlost namere i kontrole. Visoka sveštenica u sadašnjosti ukazuje na emotivnu svesnost i uzdržanost.\n\nLuda u budućnosti donosi otvorenost i nove početke. Kao tarot tumačenje, to sugeriše moguće oslobađanje od preteranog planiranja, dopuštajući da radoznalost i poverenje vode sledeći korak—oblikovan intuicijom, a ne sigurnošću."
+        }
+    }
+  }
+}
