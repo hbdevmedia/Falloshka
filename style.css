@@ -497,3 +497,17 @@ footer {
   padding: 0;
   background: none;
 }
+
+/* Draw Your Cards – üstte ama full olmayan CTA */
+.draw-cta {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 30px;
+}
+
+.draw-cta .primary-btn {
+  padding: 14px 32px;
+  font-size: 14px;
+  width: auto;        /* ✅ full davranışı engellenir */
+  max-width: none;
+}

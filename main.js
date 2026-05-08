@@ -59,6 +59,7 @@ const translations = {
     readingResultNote:
       "Remember, this reading reflects possibilities, not certainties.",
 
+    tarotBtnDraw: "Shuffle Cards",
     /* FOOTER */
     footerText:
       "This content is for entertainment purposes only."
@@ -119,7 +120,8 @@ const translations = {
     "Die gezogene Karte weist auf eine Phase innerer Wandlung und sanfter Klarheit hin.",
   readingResultNote:
     "Diese Lesung zeigt Möglichkeiten, keine Gewissheiten.",
-
+  
+  tarotBtnDraw: "Karten mischen",
   /* FOOTER */
   footerText:
     "Dieser Inhalt dient ausschließlich zu Unterhaltungszwecken."
@@ -179,7 +181,8 @@ sr: {
     "Izvučena karta ukazuje na period unutrašnje transformacije i blage jasnoće.",
   readingResultNote:
     "Ovo tumačenje prikazuje mogućnosti, ne sigurnosti.",
-
+  
+  tarotBtnDraw: "Promešaj karte",
   /* FOOTER */
   footerText:
     "Ovaj sadržaj je namenjen isključivo zabavi."
@@ -240,6 +243,7 @@ sk: {
   readingResultNote:
     "Tento výklad zobrazuje možnosti, nie istoty.",
 
+  tarotBtnDraw: "Zamiešať karty",
   /* FOOTER */
   footerText:
     "Tento obsah slúži len na zábavné účely."
@@ -297,6 +301,8 @@ sk: {
       "Bu kart içsel dönüşüm ve berraklık dönemini işaret ediyor.",
     readingResultNote:
       "Bu fal ihtimalleri yansıtır.",
+
+    tarotShuffleBtn: "Kartları Karıştır",
 
     footerText: "Bu içerik eğlence amaçlıdır."
   }
