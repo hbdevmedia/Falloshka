@@ -392,6 +392,12 @@ function renderCards() {
     // ✅ 2) YENİ VE TEMİZ KARTA EVENT EKLE
     cleanCard.addEventListener("click", () => {
       if (cleanCard.classList.contains("open")) return;
+      
+      // 🔮 Duman efekti
+      cleanCard.classList.add("smoke");
+      setTimeout(() => {
+        cleanCard.classList.remove("smoke");
+      }, 800);
 
       // Ön yüzü hazırla
       const front = cleanCard.querySelector(".card-front");
