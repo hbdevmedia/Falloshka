@@ -176,7 +176,8 @@ select {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 0.9s ease;
+  /* transition: transform 0.9s ease; */
+   transition: transform 0.9s cubic-bezier(.4, .0, .2, 1); /* daha yönlü akış */
 }
 
 /* Kart açıldığında döner */
