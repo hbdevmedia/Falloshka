@@ -382,27 +382,32 @@ function renderCards() {
   const lang = localStorage.getItem("lang") || "en";
 
   cardElements.forEach((cardEl, index) => {
+    // ✅ 1) KARTI KLONLA → ESKİ EVENT’LER SİLİNİR
+    const cleanCard = cardEl.cloneNode(true);
+    cardEl.replaceWith(cleanCard);
+
     const card = selectedCards[index];
     if (!card) return;
 
-    cardEl.addEventListener("click", () => {
-      if (cardEl.classList.contains("open")) return;
+    // ✅ 2) YENİ VE TEMİZ KARTA EVENT EKLE
+    cleanCard.addEventListener("click", () => {
+      if (cleanCard.classList.contains("open")) return;
 
-      // ✅ Ön yüzü hazırla
-      const front = cardEl.querySelector(".card-front");
+      // Ön yüzü hazırla
+      const front = cleanCard.querySelector(".card-front");
       if (front) {
         front.style.backgroundImage = `url(${card.image})`;
       }
 
-      // ✅ SADECE open — flip burada tetiklenir
-      cardEl.classList.add("open");
+      cleanCard.classList.add("open");
 
-      // ✅ açılma takibi + 3 kart tamamlanınca falı yaz
+      // Açılma takibi
       opened[index] = true;
       if (opened.every(v => v)) {
         showCombinationReading();
       }
-      // ✅ Alt butonu güncelle
+
+      // Alt butonu güncelle
       const btn = nameButtons[index];
       btn.textContent = card.name[lang] || card.name.en;
       btn.classList.remove("hidden");
@@ -538,44 +543,55 @@ function showCombinationReading() {
 }
 
 function resetTarot() {
-  // 1️⃣ Kartları kapat (UI reset)
-  document.querySelectorAll(".tarot-card").forEach(cardEl => {
-    cardEl.classList.remove("open");
+  // 1️⃣ Kart container’ı al
+  const spread = document.querySelector(".tarot-spread");
+  if (!spread) return;
 
-    const front = cardEl.querySelector(".card-front");
-    if (front) {
-      front.style.backgroundImage = "";
-    }
+  // 2️⃣ Kartları klonlayarak event’leri temizle
+  const cards = [...spread.children];
+  spread.innerHTML = "";
+
+  cards.forEach(oldCard => {
+    const newCard = oldCard.cloneNode(true);
+
+    // open class temizliği (görsel güvence)
+    newCard.classList.remove("open");
+
+    const front = newCard.querySelector(".card-front");
+    if (front) front.style.backgroundImage = "";
+
+    spread.appendChild(newCard);
   });
 
-  // 2️⃣ Kart isim butonlarını gizle
+  // 3️⃣ Kart isimlerini gizle
   document.querySelectorAll(".card-name-btn").forEach(btn => {
     btn.classList.add("hidden");
     btn.textContent = "";
   });
 
-  // 3️⃣ Sonuç metnini temizle (default metne dön)
+  // 4️⃣ Sonucu sıfırla
   const resultP = document.querySelector(".result-box p");
   if (resultP) {
-    delete resultP.dataset.dynamic; // ✅ i18n tekrar çalışabilsin
+    delete resultP.dataset.dynamic;
     const lang = localStorage.getItem("lang") || "en";
     resultP.textContent = translations[lang].readingResultText;
   }
 
-  // 4️⃣ State sıfırla
+  // 5️⃣ State sıfırla
   opened = [false, false, false];
   combinationData = null;
   comboFileId = null;
 
-  // 5️⃣ Kartları yeniden karıştır ve seç
+  // 6️⃣ ✅ YENİ kartları GERÇEKTEN karıştır
   drawCards(3);
 
-  // 6️⃣ Yeni kombinasyon dosyasını preload et
+  // 7️⃣ ✅ YENİ kombinasyon dosyasını yükle
   loadCombinationFile(selectedCards[0].id);
 
-  // 7️⃣ Kartlara tekrar click bağla
+  // 8️⃣ ✅ SADECE TEK KEZ event bağlanır
   renderCards();
 }
+
 
 /* ==================================================
    INIT
