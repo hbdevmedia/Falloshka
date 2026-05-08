@@ -160,44 +160,54 @@ select {
 }
 
 
-/* TAROT CARD (ANIMATED + FALLBACK) */
+/* === TAROT CARD – TRUE FLIP SYSTEM === */
+
 .tarot-card {
   width: 180px;
   height: 300px;
-  border-radius: 16px;
-  position: relative;
+  perspective: 1000px; /* 3D derinlik */
   cursor: pointer;
-  box-shadow: 0 0 40px rgba(150, 90, 255, 0.6);
-  overflow: hidden;
-  transition: transform 1.2s ease, box-shadow 1.2s ease;
 }
 
-/* Fallback IMG */
-.tarot-card img.card-fallback {
+/* Dönen katman */
+.card-inner {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
-  object-fit: contain; /* ✅ kart arkası tam sığar */
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.9s ease;
+}
+
+/* Kart açıldığında döner */
+.tarot-card.open .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Ortak yüz ayarı */
+.card-front,
+.card-back {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  backface-visibility: hidden; /* 🔴 kritik */
+  overflow: hidden;
+}
+
+/* Kart arkası */
+.card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   display: block;
 }
 
-/* Kart açıldığında img'i gizle */
-.tarot-card.open img.card-fallback {
-  opacity: 0;
-}
-
-/* Açılma animasyonu */
-.tarot-card.revealing {
-  transform: rotateY(360deg) scale(1.05);
-}
-
-/* Açılmış kart */
-.tarot-card.open {
-  box-shadow: 0 0 60px rgba(255, 215, 0, 0.8);
+/* Kart ön yüzü */
+.card-front {
+  transform: rotateY(180deg);
   background-size: cover;
-  background-position: center center; /* ✅ MERKEZ */
-  background-repeat: no-repeat;       /* ✅ TEK KERE */
-
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 60px rgba(255, 215, 0, 0.8);
 }
 
 

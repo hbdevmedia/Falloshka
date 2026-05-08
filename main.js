@@ -375,25 +375,24 @@ function renderCards() {
     cardEl.addEventListener("click", () => {
       if (cardEl.classList.contains("open")) return;
 
-      cardEl.classList.add("revealing");
+      // ✅ Ön yüzü hazırla
+      const front = cardEl.querySelector(".card-front");
+      if (front) {
+        front.style.backgroundImage = `url(${card.image})`;
+      }
 
-      setTimeout(() => {
-        cardEl.style.backgroundImage = `url(${card.image})`;
-        cardEl.classList.add("open");
-        cardEl.querySelector("img")?.remove();
+      // ✅ SADECE open — flip burada tetiklenir
+      cardEl.classList.add("open");
 
-        // ✅ ALT BÖLÜMDEKİ DOĞRU BUTONU YAZ
-        const btn = nameButtons[index];
-        btn.textContent = card.name[lang] || card.name.en;
-        btn.classList.remove("hidden");
-
-        // popup
-        btn.onclick = () => openModal(card);
-
-      }, 600);
+      // ✅ Alt butonu güncelle
+      const btn = nameButtons[index];
+      btn.textContent = card.name[lang] || card.name.en;
+      btn.classList.remove("hidden");
+      btn.onclick = () => openModal(card);
     });
   });
 }
+
 
 function updateOpenedCardNames() {
   const lang = localStorage.getItem("lang") || "en";
