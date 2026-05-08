@@ -159,12 +159,6 @@ select {
   padding: 60px 10%;
 }
 
-/* .cards img {
-  width: 180px;
-  height: auto;
-  border-radius: 16px;
-  box-shadow: 0 0 30px rgba(150, 90, 255, 0.45);
-} */
 
 /* TAROT CARD (ANIMATED + FALLBACK) */
 .tarot-card {
@@ -182,7 +176,8 @@ select {
 .tarot-card img.card-fallback {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
+  object-fit: contain; /* ✅ kart arkası tam sığar */
   display: block;
 }
 
@@ -193,13 +188,16 @@ select {
 
 /* Açılma animasyonu */
 .tarot-card.revealing {
-  transform: rotateY(180deg) scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Açılmış kart */
 .tarot-card.open {
   box-shadow: 0 0 60px rgba(255, 215, 0, 0.8);
   background-size: cover;
+  background-position: center center; /* ✅ MERKEZ */
+  background-repeat: no-repeat;       /* ✅ TEK KERE */
+
 }
 
 
