@@ -529,15 +529,14 @@ footer {
 }
 
 /* =========================
-   TAROT SMOKE EFFECT
+   TAROT SMOKE EFFECT - SAFE
 ========================= */
 
-.card-inner {
+.tarot-card {
   position: relative;
-  overflow: hidden;
 }
 
-/* Smoke layer */
+/* Smoke overlay – independent layer */
 .card-smoke {
   position: absolute;
   inset: -20%;
@@ -545,28 +544,28 @@ footer {
     radial-gradient(circle at 30% 40%, rgba(255,255,255,0.25), transparent 40%),
     radial-gradient(circle at 70% 60%, rgba(255,255,255,0.2), transparent 45%),
     radial-gradient(circle at 50% 50%, rgba(255,255,255,0.18), transparent 50%);
-  
+
   opacity: 0;
   pointer-events: none;
-  filter: blur(12px);
-  transform: scale(1.1);
+  filter: blur(14px);
+  z-index: 3;              /* card-inner üstünde */
 }
 
 /* Smoke animation */
 .tarot-card.smoke .card-smoke {
-  animation: smokeFade 0.75s ease-out forwards;
+  animation: smokeFadeSafe 0.75s ease-out forwards;
 }
 
-@keyframes smokeFade {
+@keyframes smokeFadeSafe {
   0% {
     opacity: 0;
-    transform: scale(1) rotate(0deg);
+    transform: scale(1);
   }
   40% {
     opacity: 0.9;
   }
   100% {
     opacity: 0;
-    transform: scale(1.35) rotate(8deg);
+    transform: scale(1.35);
   }
 }
