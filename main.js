@@ -6,7 +6,8 @@ const translations = {
   en: {
     /* NAV */
     navHome: "Home",
-    navReading: "Tarot Reading",
+    navTarot: "Tarot Reading",
+    navAstro: "Astrological Reading",
     navAbout: "About",
 
     /* HOME (index.html) */
@@ -68,7 +69,8 @@ const translations = {
   de: {
   /* NAV */
   navHome: "Start",
-  navReading: "Tarot-Lesung",
+  navTarot: "Tarot-Lesung",
+  navAstro: "Astrologische Lesung",
   navAbout: "Über",
 
   /* HOME (index.html) */
@@ -129,7 +131,8 @@ const translations = {
 sr: {
   /* NAV */
   navHome: "Početna",
-  navReading: "Tarot tumačenje",
+  navTarot: "Tarot tumačenje",
+  navAstro: "Astrološko tumačenje",
   navAbout: "O nama",
 
   /* HOME (index.html) */
@@ -190,7 +193,8 @@ sr: {
 sk: {
   /* NAV */
   navHome: "Domov",
-  navReading: "Tarotový výklad",
+  navTarot: "Tarotový výklad",
+  navAstro: "Astrologický výklad",
   navAbout: "O nás",
 
   /* HOME (index.html) */
