@@ -162,7 +162,7 @@ select {
 
 /* === TAROT CARD – TRUE FLIP SYSTEM === */
 
-.tarot-card {
+.page-tarot.tarot-card {
   width: 180px;
   height: 300px;
   perspective: 1000px; /* 3D derinlik */
@@ -171,7 +171,7 @@ select {
 }
 
 /* Dönen katman */
-.card-inner {
+.page-tarot.card-inner {
   width: 100%;
   height: 100%;
   position: relative;
@@ -181,13 +181,13 @@ select {
 }
 
 /* Kart açıldığında döner */
-.tarot-card.open .card-inner {
+.page-tarot.tarot-card.open .card-inner {
   transform: rotateY(180deg);
 }
 
 /* Ortak yüz ayarı */
-.card-front,
-.card-back {
+.page-tarot.card-front,
+.page-tarot.card-back {
   position: absolute;
   inset: 0;
   border-radius: 16px;
@@ -196,7 +196,7 @@ select {
 }
 
 /* Kart arkası */
-.card-back img {
+.page-tarot.card-back img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -204,7 +204,7 @@ select {
 }
 
 /* Kart ön yüzü */
-.card-front {
+.page-tarot.card-front {
   transform: rotateY(180deg);
   background-size: cover;
   background-position: center;
@@ -524,58 +524,91 @@ footer {
 }
 
 /* Shake state */
-.tarot-card.shaking {
+.page-tarot.tarot-card.shaking {
   animation: tarotShake 0.45s ease-in-out;
 }
 
-/* =========================
-   TAROT SMOKE EFFECT (NON-BLOCKING)
-========================= */
-
-.tarot-card {
-  position: relative;
-}
-
-/* Smoke overlay – DOES NOT block image */
-.card-smoke {
+/* Tarot smoke – safe */
+.page-tarot .tarot-card::after {
+  content: "";
   position: absolute;
   inset: -15%;
   background:
     radial-gradient(circle at 30% 40%, rgba(255,255,255,0.35), transparent 45%),
     radial-gradient(circle at 70% 60%, rgba(255,255,255,0.25), transparent 50%),
     radial-gradient(circle at 50% 50%, rgba(255,255,255,0.2), transparent 55%);
-
   opacity: 0;
   pointer-events: none;
-
-  /* 🔑 CRITICAL PART */
-  mix-blend-mode: screen;   /* ✅ üstte ama maskelemez */
   filter: blur(14px);
-
-  z-index: 1;               /* ✅ card-inner'ın ALTINDA */
+  z-index: 0;
 }
 
-/* card-inner flip yapıyor, üstte kalmalı */
-.card-inner {
+.page-tarot .card-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.page-tarot .tarot-card.smoke::after {
+  animation: smokeFadePseudo 0.7s ease-out forwards;
+}
+
+@keyframes smokeFadePseudo {
+  0% { opacity: 0; transform: scale(1); }
+  40% { opacity: 1; }
+  100% { opacity: 0; transform: scale(1.3); }
+}
+
+/* ASTROLOGY IMAGE = SAHNE */
+.astro-visual {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+
+  margin-top: -220px;          /* ✅ FORMUN ALTINA GİRER */
+  padding: 300px 15px 160px;   /* ✅ FORM + RESULT İÇİN ALAN */
+}
+
+.astro-visual img {
+  width: 900px;
+  max-width: 100%;
+  border-radius: 14px;
+
+  box-shadow:
+    0 30px 70px rgba(0,0,0,0.55),
+    0 0 120px rgba(140,90,255,0.25);
+}
+
+/* FORM = CAM PANEL */
+.reading-form {
   position: relative;
   z-index: 2;
 }
 
-/* Smoke animation */
-.tarot-card.smoke .card-smoke {
-  animation: smokeFadeSafe 0.7s ease-out forwards;
+.reading-form .form-box {
+  background: rgba(20, 10, 35, 0.72);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+
+  box-shadow: 0 20px 60px rgba(0,0,0,0.45);
 }
 
-@keyframes smokeFadeSafe {
-  0% {
-    opacity: 0;
-    transform: scale(1);
+/* RESULT = DEVAM EDEN OVERLAY */
+.result {
+  position: relative;
+  z-index: 3;
+  margin-top: -140px;
+}
+@media (max-width: 768px) {
+  .astro-visual {
+    margin-top: -120px;
+    padding-top: 200px;
   }
-  40% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.3);
+
+  .result {
+    margin-top: -60px;
   }
 }
