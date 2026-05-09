@@ -46,14 +46,20 @@
     </p>
 
     <label data-i18n="readingLabelName">Name</label>
-    <input type="text" data-i18n-placeholder="readingPhName" placeholder="">
+    <input
+      id="userName"
+      type="text"
+      data-i18n-placeholder="readingPhName"
+      placeholder=""
+    >
 
     <label data-i18n="readingLabelDob">Date of Birth</label>
     <div class="dob">
-      <input type="text" data-i18n-placeholder="readingPhDay" placeholder="">
-      <input type="text" data-i18n-placeholder="readingPhMonth" placeholder="">
-      <input type="text" data-i18n-placeholder="readingPhYear" placeholder="">
+      <input id="birthDay" type="text" data-i18n-placeholder="readingPhDay" placeholder="">
+      <input id="birthMonth" type="text" data-i18n-placeholder="readingPhMonth" placeholder="">
+      <input id="birthYear" type="text" data-i18n-placeholder="readingPhYear" placeholder="">
     </div>
+
 
    <label data-i18n="readingLabelTopic">Selected Life Topic *</label>
 
@@ -86,9 +92,16 @@
 
 
     <label data-i18n="readingLabelMessage">Message for the Reader</label>
-    <textarea data-i18n-placeholder="readingPhMessage" placeholder=""></textarea>
-
-    <button class="primary-btn full" data-i18n="readingBtnDraw">
+    <textarea
+      id="userMessage"
+      data-i18n-placeholder="readingPhMessage"
+      placeholder="">
+    </textarea>
+    <button
+      id="astroSubmit"
+      class="primary-btn full"
+      data-i18n="readingBtnDraw"
+    >
       Draw Your Cards
     </button>
   </div>
@@ -108,7 +121,7 @@
 <section class="result">
   <h2 data-i18n="readingResultTitle">Your Celestial Narrative</h2>
   <div class="result-box">
-    <p data-i18n="readingResultText">
+    <p id="astroResult" data-i18n="readingResultText">
       The energy of the drawn card suggests a time of inner transformation and gentle clarity.
     </p>
     <p data-i18n="readingResultNote">

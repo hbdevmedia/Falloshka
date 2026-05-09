@@ -662,4 +662,73 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("drawBtn")?.addEventListener("click", () => {
     shakeCardsThenReset();
   });
+
+  /* ===============================
+   ASTRO READING – GROQ CONNECT
+   =============================== */
+
+  if (document.body.classList.contains("page-astro")) {
+  const astroBtn = document.getElementById("astroSubmit");
+  const resultEl = document.getElementById("astroResult");
+
+  if (astroBtn && resultEl) {
+    astroBtn.addEventListener("click", async (e) => {
+      e.preventDefault();
+
+      resultEl.dataset.dynamic = "true";
+      resultEl.textContent = "Reading the cosmic currents...";
+
+      const name = document.getElementById("userName")?.value.trim() || "";
+      const day = document.getElementById("birthDay")?.value.trim() || "";
+      const month = document.getElementById("birthMonth")?.value.trim() || "";
+      const year = document.getElementById("birthYear")?.value.trim() || "";
+      const birth = `${day}.${month}.${year}`;
+
+      const topic = document.querySelector(
+        'input[name="topic"]:checked'
+      )?.value;
+
+      const message =
+        document.getElementById("userMessage")?.value.trim() || "";
+
+      const lang = localStorage.getItem("lang") || "en";
+
+      if (!name || !topic) {
+        resultEl.textContent =
+          "Please enter your name and select a life topic.";
+        return;
+      }
+
+      try {
+        const res = await fetch(
+          "https://damp-cherry-e7a4.falloshka.workers.dev",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              name,
+              birth,
+              topic,
+              message,
+              lang, // ✅ DİL BURADA GİDİYOR
+            }),
+          }
+        );
+
+        if (!res.ok) {
+          throw new Error("Worker error");
+        }
+
+        const data = await res.json();
+        resultEl.textContent = data.result;
+      } catch (err) {
+        resultEl.textContent =
+          "The astral connection is momentarily unclear. Please try again.";
+        console.error(err);
+      }
+    });
+  }
+}
 });
