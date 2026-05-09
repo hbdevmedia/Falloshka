@@ -282,16 +282,16 @@ footer {
 }
 
 /* READING HERO */
-.page-tarot .reading-hero {
+.reading-hero {
   text-align: center;
   padding: 80px 10%;
 }
 
-.page-tarot .reading-hero h1 {
+.reading-hero h1 {
   font-size: 42px;
 }
 
-.page-tarot .reading-hero p {
+.reading-hero p {
   max-width: 520px;
   margin: auto;
   opacity: 0.85;
